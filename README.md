@@ -53,7 +53,7 @@ Schematic of the current Controller and Sensor array PCB
 ## Controller PCB
 Gerber files for ordering current Controller and Sensor Array PCB
 
-<img src="images/IMG_20200911_210004.jpg" width="480">
+<img src="images/P01117-140336.jpg" width="480">
 <img src="images/PCB_Controller.png" width="480">
 <img src="images/PCB_Sensor_Array.png" width="480">
 
@@ -77,7 +77,7 @@ These are some key parts I used, others can be used in their place, but variatio
 ## Controller 
 Main components on the PCB
 * [ESP32 Dev board](https://aliexpress.ru/item/1005001267643044.html?spm=a2g0s.9042311.0.0.40e133edW2JAK5) - ESP32 Dev kit
-* [MCP23S17](https://aliexpress.ru/item/4000115968702.html?spm=a2g0s.9042311.0.0.40e133edW2JAK5)
+* [MCP23S17-E/SP](https://www.chipdip.ru/product1/8002981432)
 * [3.3V to 5V TTL Shifter Module](https://aliexpress.ru/item/32825755943.html?spm=a2g0s.9042311.0.0.40e133edW2JAK5)
 * [NJK-5002C NPN NO（Normally Open)Hall Effect Sensor Switch](https://aliexpress.ru/item/32922514991.html?spm=a2g0s.9042311.0.0.40e133edW2JAK5)
 * [IDC BOX HEADER 2X13 26PIN](https://aliexpress.ru/item/33009552726.html?spm=a2g0s.9042311.0.0.40e133edW2JAK5)
@@ -86,9 +86,12 @@ Main components on the PCB
 * [KF301 HEADER 2 pin](https://aliexpress.ru/item/4001057742092.html?spm=a2g0s.9042311.0.0.40e133edW2JAK5)
 * [Female Pin Header Connector](https://aliexpress.ru/item/32964870579.html?spm=a2g0s.9042311.0.0.40e133edW2JAK5)
 
+PCB
+* [Gerber files](Controller PCB Gerber/)
+* [PCB Manufacturer](https://www.rezonit.ru/)
 
 ## Base
-- Steel plate ½ inch thick 31” diameter
+- Steel plate 8 mm thick 31” diameter
 - 6 - Coupler https://amzn.to/2slOiIa
 
 ## Drive
