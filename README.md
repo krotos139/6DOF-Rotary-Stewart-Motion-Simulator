@@ -1,4 +1,10 @@
+# !!! WARNING !!!
+
+Hey. I'm making 6dof project base of https://github.com/knaufinator/6DOF-Rotary-Stewart-Motion-Simulator/tree/master/Technical
+I will replace some components for metric standart. My project isn't finished yet. I will place all data to this repo.
+
 # 6DOF Rotary Stewart Motion Simulator Platform
+
 Compact yet powerful motion simulator platform utilizing 6 AC servo motors. High presicion planetary gears used to multiply the torque. Custom PCB using a ESP32 microcontroller to process the platform position. The ESP32 Controller base has a Bluetooth capability that is being used by a custom Android app using Ble standards to Configure platform parameters. Also featuring a soft pause/estop button, this will prevent position updates from the pc. This project contains 2 custom PCB's one main controller board that contains the ESP32 microcontroller, as well interfaces with the 6 AC Servo drivers, and 1 sensor array PCB that takes the 6 magnetic arm limit switches, conbines the signals into 1 ethernet cable that is then connected to the main PCB.
 
 This platform is scalable, and most dimensions are changeable within reason. Certain general design rules will need to be followed, in order for the platform to function correctly.
@@ -47,7 +53,7 @@ Schematic of the current Controller and Sensor array PCB
 ## Controller PCB
 Gerber files for ordering current Controller and Sensor Array PCB
 
-<img src="images/IMG_20200911_210004.jpg" width="480">
+<img src="images/P01117-140336.jpg" width="480">
 <img src="images/PCB_Controller.png" width="480">
 <img src="images/PCB_Sensor_Array.png" width="480">
 
@@ -64,16 +70,28 @@ To test, check the voltage at pin 2 (step), and pin 9 (dir) w/ground on the ESP3
 # Parts
 These are some key parts I used, others can be used in their place, but variations of the AC Servo motor may not be compadible with the PCB, and may require a modified PCB schematic. 
 
+## Electric components
+
+* [AC Ammeter Voltmeter](https://www.aliexpress.com/item/4000589056233.html?spm=a2g0s.9042311.0.0.40e133edW2JAK5)
+
 ## Controller 
 Main components on the PCB
-* [ESP32 Dev board](https://amzn.to/2OkGpuj) - ESP32 Dev kit
-* [MCP23S17](https://amzn.to/32UCSsQ) -
-* [3.3V to 5V TTL Shifter Module](https://amzn.to/2VRh3sA) -
-* [NJK-5002C NPN NO（Normally Open)Hall Effect Sensor Switch](https://amzn.to/2vSzzX8)
+* [ESP32 Dev board](https://aliexpress.ru/item/1005001267643044.html?spm=a2g0s.9042311.0.0.40e133edW2JAK5) - ESP32 Dev kit
+* [MCP23S17-E/SP](https://www.chipdip.ru/product1/8002981432)
+* [3.3V to 5V TTL Shifter Module](https://aliexpress.ru/item/32825755943.html?spm=a2g0s.9042311.0.0.40e133edW2JAK5)
+* [NJK-5002C NPN NO（Normally Open)Hall Effect Sensor Switch](https://aliexpress.ru/item/32922514991.html?spm=a2g0s.9042311.0.0.40e133edW2JAK5)
+* [IDC BOX HEADER 2X13 26PIN](https://aliexpress.ru/item/33009552726.html?spm=a2g0s.9042311.0.0.40e133edW2JAK5)
+* [RJ45](https://aliexpress.ru/item/4000226018964.html?spm=a2g0s.9042311.0.0.40e133edW2JAK5)
+* [KF301 HEADER 3 pin](https://aliexpress.ru/item/4001057723206.html?spm=a2g0s.9042311.0.0.40e133edW2JAK5)
+* [KF301 HEADER 2 pin](https://aliexpress.ru/item/4001057742092.html?spm=a2g0s.9042311.0.0.40e133edW2JAK5)
+* [Female Pin Header Connector](https://aliexpress.ru/item/32964870579.html?spm=a2g0s.9042311.0.0.40e133edW2JAK5)
 
+PCB
+* [Gerber files](Controller PCB Gerber/)
+* [PCB Manufacturer](https://www.rezonit.ru/)
 
 ## Base
-- Steel plate ½ inch thick 31” diameter
+- Steel plate 8 mm thick 31” diameter
 - 6 - Coupler https://amzn.to/2slOiIa
 
 ## Drive
@@ -83,9 +101,8 @@ Main components on the PCB
 
 ## Connecting Arms
 
-* [12 - 1/2 X 1/2-20 Economy Panhard Bar Kit with Bung .065, Rod End, Heim Joint](https://amzn.to/2FQffak)
-* [12 - 1/2-3/8 High Misalignment Spacers, Rod End Spacers](https://amzn.to/2tm1jlF)
-* [6 - 24" long 1" OD X .870 ID X .065 Wall Steel tubing]()
+* [12 - Swivel head SA 12mm](https://podtrade.ru/product/42564/)
+* [12 - M12 to M10 High Misalignment Angle Reducer Reducers Spacers Rod End Joint](https://www.ebay.com/itm/184116983786)
 
 ## Swing Arms
 - 6 - 8" long 1" OD X .870 ID X .065 Wall Steel tubing

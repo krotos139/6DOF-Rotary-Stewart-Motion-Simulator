@@ -10,14 +10,14 @@
 #define BIT_CLEAR(a,b) ((a) &= ~(1ULL<<(b)))
 
 //variables for platform positions
-static float theta_r = 10;
+static float theta_r = 15;
 static float theta_s[6]={150,-90,30, 150,-90,30};
 static float theta_p = 30;
-static float RD = 15.75;
-static float PD = 16;
-static float ServoArmLengthL1 = 7.25;
-static float ConnectingArmLengthL2 = 28.5;
-static float platformHeight = 25.5170749;
+static float RD = 500;
+static float PD = 495;
+static float ServoArmLengthL1 = 180;
+static float ConnectingArmLengthL2 = 650;
+static float platformHeight = 570;
 
 //how many pulses per radian of arm movement this value is calibrated to my setup
 static float servoPulseMultiplierPerRadian =  800/(pi/4);
