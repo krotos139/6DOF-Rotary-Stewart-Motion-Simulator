@@ -103,10 +103,14 @@ PCB
 
 * [12 - Swivel head SA 12mm](https://podtrade.ru/product/42564/)
 * [12 - M12 to M10 High Misalignment Angle Reducer Reducers Spacers Rod End Joint](https://www.ebay.com/itm/184116983786)
+* 6 - 25x179 Steel pipe
 
 ## Swing Arms
-- 6 - 8" long 1" OD X .870 ID X .065 Wall Steel tubing
-- 6 - 3/8"-16 Long Coped Steel Bungs
+* 6 - 25x22mm_clamp2.m3d
+* 6 - 25x560 Steel pipe
+
+## Frame 
+* 16.5 meters of steel pipe
 
 ## Chassis
 * [Vesa Monitor mount](https://amzn.to/2TmVS0f)
