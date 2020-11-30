@@ -129,6 +129,10 @@ PCB
 These are my settings on the Servo Driver aasd-15a these both enable specific modes as well define the time it should take to accelerate and decelerate the platform before it hits max speed. This is useful for when you want to protect the platform from self destruction due to the fast movements. Make them to large and the platform will feel slugish.
 - pn002 - Control Mode - "002"
 - pn003 - Servo enable - "001"
+- pn052 - Servo enable - "023"
+- pn053 - Servo enable - "027"
+- pn054 - Servo enable - "019"
+- pn055 - Servo enable - "020"
 - pn098 - Gear - "80"
 - pn109 - Position command deceleration mode- "002"
 - pn110 - Position command a filtering time constant - "050"
