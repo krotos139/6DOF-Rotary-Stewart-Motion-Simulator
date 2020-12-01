@@ -44,18 +44,17 @@ This is a test application that will connect to the ESP32 microcontroller drivin
 
 
 ## Controller and Sensor Array Schematics
-Schematic of the current Controller and Sensor array PCB
 
-<img src="Controller Schematic/Schematic_Controller.png" width="480">
-<img src="Controller Schematic/Schematic_Sensor array.png" width="480">
-
+<img src="Controller Schematic/111/schematic.png" width="480">
 
 ## Controller PCB
 Gerber files for ordering current Controller and Sensor Array PCB
 
+We made PCB from Christopher Knauf:
 <img src="images/P01117-140336.jpg" width="480">
-<img src="images/PCB_Controller.png" width="480">
-<img src="images/PCB_Sensor_Array.png" width="480">
+
+We have a problem with USB interface. We start to do second PCB:
+<img src="Controller Schematic/111/PCB1.png" width="480">
 
 ## Platform Test Application
 .Net Application for testing position limits and speed of platform. Allows for manual setting of each DOF / Axis. As well works with XBOX360 controller through the PC USB wireless adapter.
@@ -129,6 +128,17 @@ PCB
 These are my settings on the Servo Driver aasd-15a these both enable specific modes as well define the time it should take to accelerate and decelerate the platform before it hits max speed. This is useful for when you want to protect the platform from self destruction due to the fast movements. Make them to large and the platform will feel slugish.
 - pn002 - Control Mode - "002"
 - pn003 - Servo enable - "001"
+- pn034 - The origin return reference point model - "001" Inversion for REF(rising along the trigger)as a reference point
+- pn035 - The origin back to the origin model - "000" Default
+- pn036 - The origin position offset high - "011" ten thousand pulse
+- pn037 - The origin position offset low - "5000" pulse
+- pn038 - The origin back to the first speed - "100" R/min
+- pn039 - The origin back to the second speed - "100" R/min
+- pn040 - The accelerating time of origin - "050" Default
+- pn041 - The origin return to slow down time - "050" Default
+- pn042 - The origin in the delay - "100" ms
+- pn043 - Complete the signal delay of origin - "080" Default
+- pn044 - The origin return instruction execution mode - "000" Default
 - pn052 - SigIn1 is "REF" - "023"
 - pn053 - SigIn2 is "PSTOP" - "027"
 - pn054 - SigIn3 is "PClear" - "019"
@@ -138,4 +148,6 @@ These are my settings on the Servo Driver aasd-15a these both enable specific mo
 - pn110 - Position command a filtering time constant - "050"
 - pn111 - S-shaped filtering time constant Ta position instruction - "50"
 - pn112 - position instruction Ts S-shaped filtering
+
+
 time constant Ts - "50"
