@@ -1,24 +1,21 @@
 # !!! WARNING !!!
 
 Hey. I'm making 6dof project base of https://github.com/knaufinator/6DOF-Rotary-Stewart-Motion-Simulator/tree/master/Technical
-I will replace some components for metric standart. My project isn't finished yet. I will place all data to this repo.
 
-# 6DOF Rotary Stewart Motion Simulator Platform
-
-Compact yet powerful motion simulator platform utilizing 6 AC servo motors. High presicion planetary gears used to multiply the torque. Custom PCB using a ESP32 microcontroller to process the platform position. The ESP32 Controller base has a Bluetooth capability that is being used by a custom Android app using Ble standards to Configure platform parameters. Also featuring a soft pause/estop button, this will prevent position updates from the pc. This project contains 2 custom PCB's one main controller board that contains the ESP32 microcontroller, as well interfaces with the 6 AC Servo drivers, and 1 sensor array PCB that takes the 6 magnetic arm limit switches, conbines the signals into 1 ethernet cable that is then connected to the main PCB.
-
-This platform is scalable, and most dimensions are changeable within reason. Certain general design rules will need to be followed, in order for the platform to function correctly.
-
-## Disclaimer 
 This is a DANGEROUS project, and if absolute care is not taken you will be injured or killed.
 
-<a align="center" href="http://www.youtube.com/watch?feature=player_embedded&v=_NR_MUGvmUo
-" target="_blank"><img align="center" src="http://img.youtube.com/vi/_NR_MUGvmUo/0.jpg" 
-alt="Motion Sim Example" height="340" width="auto" border="0" /></a>
+Project isn't finished yet. I will place all data to this repo.
 
-<a align="center" href="http://www.youtube.com/watch?feature=player_embedded&v=CdDkL8X6qOE
-" target="_blank"><img align="center" src="http://img.youtube.com/vi/CdDkL8X6qOE/0.jpg" 
-alt="Motion Sim Example 2" height="340" width="auto" border="0" /></a>
+# Experiments one
+
+We made PCB from Christopher Knauf:
+
+<img src="images/P01117-140336.jpg" width="480">
+
+And we can to control one AC motor driver:
+
+<a align="center" href="https://youtu.be/x41-dcpQG4Y
+" target="_blank"><img align="center" src="http://img.youtube.com/vi/x41-dcpQG4Y/0.jpg"  height="340" width="auto" border="0" /></a>
 
 # Projects Included
 These are the components of the project that are included in this repository
@@ -37,34 +34,25 @@ With these settings the software package Simtools or any other custom applicatio
 <img src="images/simtools.png" width="480">
 
 
-## Android App
-This is a test application that will connect to the ESP32 microcontroller driving the AC servos, currently can stop/resume movement, and early filter adjustments. further functionality will be added to this as time progresses.
+## Controller Schematics
 
-<img src="images/Screenshot_20200907-141046.jpg" width="480">
+We developed our controller board with optocoupler:
 
+<img src="Controller Schematic/KiCAD_project/schematic.png" width="480">
 
-## Controller and Sensor Array Schematics
-
-<img src="Controller Schematic/111/schematic.png" width="480">
+We use sensor bord from Christopher Knauf: https://github.com/knaufinator/6DOF-Rotary-Stewart-Motion-Simulator/blob/master/Controller%20Schematic/Schematic_Sensor%20array.png
 
 ## Controller PCB
-Gerber files for ordering current Controller and Sensor Array PCB
-
-We made PCB from Christopher Knauf:
-<img src="images/P01117-140336.jpg" width="480">
 
 We have a problem with USB interface. We start to do second PCB:
-<img src="Controller Schematic/111/PCB1.png" width="480">
+
+<img src="Controller Schematic/KiCAD_project/PCB1.png" width="480">
+
+<img src="Controller Schematic/KiCAD_project/PCB2.png" width="480">
 
 ## Platform Test Application
 .Net Application for testing position limits and speed of platform. Allows for manual setting of each DOF / Axis. As well works with XBOX360 controller through the PC USB wireless adapter.
 
-## PCB Debugger
-This is a Arduino program that you can use on the main PCB to test to make sure that the GPIO - motor outputs are working correctly using a multimeter. This will turn all ports on and off at a 5 second interval. slow enough for the multimeter to pick up the switch. Useful when you are debugging non moving motors, cold solder joints. 
-
-To test, check the voltage at pin 2 (step), and pin 9 (dir) w/ground on the ESP32.  Voltages should swing between 5v and 0, for about 5 seconds each. test each IDC26 connector to ensure all outputs are working. if you notice non functional, futhur troubleshooting is needed. often this is a bad solder joint.
-
-![IDC Image](images/idc-26-pin-male1.png)
 
 # Parts
 These are some key parts I used, others can be used in their place, but variations of the AC Servo motor may not be compadible with the PCB, and may require a modified PCB schematic. 
