@@ -940,17 +940,6 @@ Wire Wire Line
 	1200 10250 950  10250
 Wire Wire Line
 	1200 10650 1200 10250
-$Comp
-L Connector:Barrel_Jack_Switch_Pin3Ring J2
-U 1 1 601FD643
-P 900 10750
-F 0 "J2" H 950 11050 50  0000 C CNN
-F 1 "DS-201" H 957 10976 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" H 950 10710 50  0001 C CNN
-F 3 "https://www.chipdip.ru/product/ds-201" H 950 10710 50  0001 C CNN
-	1    900  10750
-	1    0    0    -1  
-$EndComp
 Text GLabel 2500 10150 1    50   Input ~ 0
 DC12
 Text GLabel 2250 10850 2    50   Input ~ 0
@@ -2061,9 +2050,6 @@ Wire Wire Line
 	11200 3500 11300 3500
 Wire Wire Line
 	11200 4100 11300 4100
-Wire Wire Line
-	1200 10750 1200 10850
-Connection ~ 1200 10850
 Wire Bus Line
 	7500 650  7500 2050
 $Comp
@@ -3066,28 +3052,6 @@ Wire Wire Line
 Wire Wire Line
 	2550 10900 3050 10900
 Connection ~ 2550 10700
-$Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 602EB81E
-P 7100 2500
-F 0 "JP2" H 7250 2550 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 7100 2614 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 7100 2500 50  0001 C CNN
-F 3 "~" H 7100 2500 50  0001 C CNN
-	1    7100 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP3
-U 1 1 602ED0FE
-P 7100 2600
-F 0 "JP3" H 7100 2500 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 7100 2714 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 7100 2600 50  0001 C CNN
-F 3 "~" H 7100 2600 50  0001 C CNN
-	1    7100 2600
-	1    0    0    -1  
-$EndComp
 Text GLabel 7250 2500 2    50   Input ~ 0
 PanelLED
 Text GLabel 7250 2600 2    50   Input ~ 0
@@ -3100,4 +3064,50 @@ Wire Bus Line
 	9650 650  9650 4100
 Wire Bus Line
 	7250 650  7250 5050
+$Comp
+L Jumper:SolderJumper_2_Open JP4
+U 1 1 5FCE05BC
+P 7100 2700
+F 0 "JP4" H 7250 2750 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 7100 2814 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 7100 2700 50  0001 C CNN
+F 3 "~" H 7100 2700 50  0001 C CNN
+	1    7100 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 7250 2700 2    50   Input ~ 0
+NotSigOut1IN
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 602ED0FE
+P 7100 2600
+F 0 "JP3" H 7250 2650 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 7100 2714 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 7100 2600 50  0001 C CNN
+F 3 "~" H 7100 2600 50  0001 C CNN
+	1    7100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 602EB81E
+P 7100 2500
+F 0 "JP2" H 7250 2550 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 7100 2614 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 7100 2500 50  0001 C CNN
+F 3 "~" H 7100 2500 50  0001 C CNN
+	1    7100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack J2
+U 1 1 5FCE9EE6
+P 900 10750
+F 0 "J2" H 957 11075 50  0000 C CNN
+F 1 "DS-201" H 957 10984 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" H 950 10710 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/ds-201" H 950 10710 50  0001 C CNN
+	1    900  10750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
