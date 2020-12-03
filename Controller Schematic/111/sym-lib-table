@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name arduino)(type Legacy)(uri ${KIPRJMOD}/arduino.lib)(options "")(descr ""))
-  (lib (name ESP32_DevKit_V1_DOIT)(type Legacy)(uri C:/work/repo/kicad/symbols/esp32_devkit_v1_doit.lib)(options "")(descr ""))
-)

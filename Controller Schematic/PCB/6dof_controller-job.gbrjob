@@ -7,14 +7,14 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.8)-1"
     },
-    "CreationDate":  "2020-12-03T12:26:08+04:00"
+    "CreationDate":  "2020-12-04T01:07:56+04:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "111",
-      "GUID": "3131312e-6b69-4636-9164-5f7063625858",
+      "Name": "6dof_controller",
+      "GUID": "36646f66-5f63-46f6-9e74-726f6c6c6572",
       "Revision": "ver 1.0"
     },
     "Size":
@@ -40,37 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "111-F_Cu.gbr",
+      "Path":  "6dof_controller-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "111-B_Cu.gbr",
+      "Path":  "6dof_controller-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "111-F_SilkS.gbr",
+      "Path":  "6dof_controller-F_Paste.gbr",
+      "FileFunction":  "SolderPaste,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "6dof_controller-B_Paste.gbr",
+      "FileFunction":  "SolderPaste,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "6dof_controller-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "111-B_SilkS.gbr",
+      "Path":  "6dof_controller-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "111-F_Mask.gbr",
+      "Path":  "6dof_controller-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "111-B_Mask.gbr",
+      "Path":  "6dof_controller-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "111-Edge_Cuts.gbr",
+      "Path":  "6dof_controller-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
@@ -80,6 +90,10 @@
     {
       "Type":  "Legend",
       "Notes":  "Layer F.SilkS"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer F.Paste"
     },
     {
       "Type":  "SolderMask",
@@ -101,6 +115,10 @@
     {
       "Type":  "SolderMask",
       "Notes":  "Layer B.Mask"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer B.Paste"
     },
     {
       "Type":  "Legend",

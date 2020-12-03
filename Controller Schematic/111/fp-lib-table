@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name ESP32_DevKit_V1_DOIT)(type KiCad)(uri C:/work/repo/kicad/footprints/esp32_devkit_v1_doit.pretty)(options "")(descr ""))
-)

@@ -14,10 +14,10 @@ Comment3 "Licence: GPL v3"
 Comment4 "Project: 6DOF Racing Simalator"
 $EndDescr
 $Comp
-L Isolator:4N35 U3
+L Isolator:4N35 U4
 U 1 1 5FC30D99
 P 9050 1100
-F 0 "U3" H 9050 1425 50  0000 C CNN
+F 0 "U4" H 9050 1425 50  0000 C CNN
 F 1 "4N35" H 9050 1334 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 8850 900 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 9050 1100 50  0001 L CNN
@@ -42,10 +42,10 @@ Entry Wire Line
 Wire Wire Line
 	8450 1000 8400 1000
 $Comp
-L Device:R R3
+L Device:R R4
 U 1 1 5FC3376E
 P 8250 1000
-F 0 "R3" V 8457 1000 50  0000 C CNN
+F 0 "R4" V 8457 1000 50  0000 C CNN
 F 1 "100" V 8366 1000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8180 1000 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079462" H 8250 1000 50  0001 C CNN
@@ -61,10 +61,10 @@ Connection ~ 8450 1300
 Wire Wire Line
 	9350 1200 9400 1200
 $Comp
-L Isolator:4N35 U4
+L Isolator:4N35 U5
 U 1 1 5FC95E22
 P 9050 1700
-F 0 "U4" H 9050 2025 50  0000 C CNN
+F 0 "U5" H 9050 2025 50  0000 C CNN
 F 1 "4N35" H 9050 1934 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 8850 1500 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 9050 1700 50  0001 L CNN
@@ -75,10 +75,10 @@ $EndComp
 Entry Wire Line
 	7800 1700 7900 1600
 $Comp
-L Device:R R4
+L Device:R R5
 U 1 1 5FC95E2E
 P 8250 1600
-F 0 "R4" V 8457 1600 50  0000 C CNN
+F 0 "R5" V 8457 1600 50  0000 C CNN
 F 1 "100" V 8366 1600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8180 1600 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079462" H 8250 1600 50  0001 C CNN
@@ -90,10 +90,10 @@ Wire Wire Line
 Wire Wire Line
 	9350 1800 9400 1800
 $Comp
-L Isolator:4N35 U5
+L Isolator:4N35 U6
 U 1 1 5FC99349
 P 9050 2300
-F 0 "U5" H 9050 2625 50  0000 C CNN
+F 0 "U6" H 9050 2625 50  0000 C CNN
 F 1 "4N35" H 9050 2534 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 8850 2100 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 9050 2300 50  0001 L CNN
@@ -104,10 +104,10 @@ $EndComp
 Entry Wire Line
 	7800 2300 7900 2200
 $Comp
-L Device:R R5
+L Device:R R6
 U 1 1 5FC99355
 P 8250 2200
-F 0 "R5" V 8457 2200 50  0000 C CNN
+F 0 "R6" V 8457 2200 50  0000 C CNN
 F 1 "100" V 8366 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8180 2200 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079462" H 8250 2200 50  0001 C CNN
@@ -119,10 +119,10 @@ Wire Wire Line
 Wire Wire Line
 	9350 2400 9400 2400
 $Comp
-L Isolator:4N35 U6
+L Isolator:4N35 U7
 U 1 1 5FC99375
 P 9050 2900
-F 0 "U6" H 9050 3225 50  0000 C CNN
+F 0 "U7" H 9050 3225 50  0000 C CNN
 F 1 "4N35" H 9050 3134 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 8850 2700 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 9050 2900 50  0001 L CNN
@@ -133,10 +133,10 @@ $EndComp
 Entry Wire Line
 	7800 2900 7900 2800
 $Comp
-L Device:R R6
+L Device:R R7
 U 1 1 5FC99381
 P 8250 2800
-F 0 "R6" V 8457 2800 50  0000 C CNN
+F 0 "R7" V 8457 2800 50  0000 C CNN
 F 1 "100" V 8366 2800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8180 2800 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079462" H 8250 2800 50  0001 C CNN
@@ -148,10 +148,10 @@ Wire Wire Line
 Wire Wire Line
 	9350 3000 9400 3000
 $Comp
-L Isolator:4N35 U7
+L Isolator:4N35 U8
 U 1 1 5FCA09E8
 P 9050 3500
-F 0 "U7" H 9050 3825 50  0000 C CNN
+F 0 "U8" H 9050 3825 50  0000 C CNN
 F 1 "4N35" H 9050 3734 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 8850 3300 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 9050 3500 50  0001 L CNN
@@ -160,10 +160,10 @@ F 4 "https://www.chipdip.ru/product0/9000066685" H 9050 3500 50  0001 C CNN "Fie
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R7
+L Device:R R8
 U 1 1 5FCA0A2E
 P 8250 3400
-F 0 "R7" V 8457 3400 50  0000 C CNN
+F 0 "R8" V 8457 3400 50  0000 C CNN
 F 1 "100" V 8366 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8180 3400 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079462" H 8250 3400 50  0001 C CNN
@@ -175,10 +175,10 @@ Wire Wire Line
 Wire Wire Line
 	9350 3600 9400 3600
 $Comp
-L Isolator:4N35 U8
+L Isolator:4N35 U9
 U 1 1 5FCA0A4E
 P 9050 4100
-F 0 "U8" H 9050 4425 50  0000 C CNN
+F 0 "U9" H 9050 4425 50  0000 C CNN
 F 1 "4N35" H 9050 4334 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 8850 3900 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 9050 4100 50  0001 L CNN
@@ -187,10 +187,10 @@ F 4 "https://www.chipdip.ru/product0/9000066685" H 9050 4100 50  0001 C CNN "Fie
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R8
+L Device:R R9
 U 1 1 5FCA0A5A
 P 8250 4000
-F 0 "R8" V 8457 4000 50  0000 C CNN
+F 0 "R9" V 8457 4000 50  0000 C CNN
 F 1 "100" V 8366 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8180 4000 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079462" H 8250 4000 50  0001 C CNN
@@ -249,10 +249,10 @@ F 3 "~" H 4600 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L Device:R R3
 U 1 1 5FD6067C
 P 4700 10200
-F 0 "R2" H 4500 10250 50  0000 L CNN
+F 0 "R3" H 4500 10250 50  0000 L CNN
 F 1 "330" H 4770 10155 50  0001 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4630 10200 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079474" H 4700 10200 50  0001 C CNN
@@ -260,10 +260,10 @@ F 3 "https://www.chipdip.ru/product0/9000079474" H 4700 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D3
+L Device:LED D4
 U 1 1 5FD613D1
 P 4700 10500
-F 0 "D3" V 4700 10700 50  0000 R CNN
+F 0 "D4" V 4700 10700 50  0000 R CNN
 F 1 "BL-LS0805UYC" V 4648 10382 50  0001 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 4700 10500 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bl-ls0805uyc" H 4700 10500 50  0001 C CNN
@@ -331,10 +331,10 @@ Connection ~ 4700 10650
 Text GLabel 4400 1350 2    50   Input ~ 0
 PanelLED
 $Comp
-L Diode:SM6T33A *D5
+L Diode:SM6T33A *D4
 U 1 1 60815C91
 P 5250 10350
-F 0 "*D5" V 5200 10450 50  0000 L CNN
+F 0 "*D4" V 5200 10450 50  0000 L CNN
 F 1 "SM6T22A" V 5300 10450 50  0000 L CNN
 F 2 "Diode_SMD:D_SMB" H 5250 10150 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/8001786864" H 5200 10350 50  0001 C CNN
@@ -425,10 +425,10 @@ Connection ~ 3850 8700
 Wire Wire Line
 	4750 8600 4700 8600
 $Comp
-L Device:R *R5
+L Device:R *R4
 U 1 1 6012B147
 P 4900 8600
-F 0 "*R5" V 5107 8600 50  0000 C CNN
+F 0 "*R4" V 5107 8600 50  0000 C CNN
 F 1 "330" V 5016 8600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4830 8600 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079474" H 4900 8600 50  0001 C CNN
@@ -447,10 +447,10 @@ Wire Wire Line
 Text GLabel 5900 9100 2    50   Input ~ 0
 DC12
 $Comp
-L Device:R *R11
+L Device:R *R10
 U 1 1 6010CF70
 P 5650 9100
-F 0 "*R11" V 5750 9100 50  0000 C CNN
+F 0 "*R10" V 5750 9100 50  0000 C CNN
 F 1 "330" V 5766 9100 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 9100 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079474" H 5650 9100 50  0001 C CNN
@@ -467,10 +467,10 @@ Wire Wire Line
 Wire Wire Line
 	5500 8600 5500 8500
 $Comp
-L Diode:BAV70 *D8
+L Diode:BAV70 *D7
 U 1 1 6010CF61
 P 5300 8800
-F 0 "*D8" V 5254 8880 50  0000 L CNN
+F 0 "*D7" V 5254 8880 50  0000 L CNN
 F 1 "BAV23" V 5345 8880 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5300 8800 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bav23c.215" H 5300 8800 50  0001 C CNN
@@ -482,10 +482,10 @@ Wire Wire Line
 Text GLabel 5900 8500 2    50   Input ~ 0
 DC12
 $Comp
-L Device:R *R10
+L Device:R *R9
 U 1 1 6010CF55
 P 5650 8500
-F 0 "*R10" V 5700 8700 50  0000 C CNN
+F 0 "*R9" V 5700 8700 50  0000 C CNN
 F 1 "330" V 5766 8500 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 8500 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079474" H 5650 8500 50  0001 C CNN
@@ -506,10 +506,10 @@ Wire Wire Line
 Text GLabel 5900 8300 2    50   Input ~ 0
 DC12
 $Comp
-L Device:R *R9
+L Device:R *R8
 U 1 1 600FCD37
 P 5650 8300
-F 0 "*R9" V 5750 8300 50  0000 C CNN
+F 0 "*R8" V 5750 8300 50  0000 C CNN
 F 1 "330" V 5765 8300 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 8300 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079474" H 5650 8300 50  0001 C CNN
@@ -526,10 +526,10 @@ Wire Wire Line
 Wire Wire Line
 	5500 7800 5500 7700
 $Comp
-L Diode:BAV70 *D7
+L Diode:BAV70 *D6
 U 1 1 600FCD28
 P 5300 8000
-F 0 "*D7" V 5254 8080 50  0000 L CNN
+F 0 "*D6" V 5254 8080 50  0000 L CNN
 F 1 "BAV23" V 5345 8080 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5300 8000 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bav23c.215" H 5300 8000 50  0001 C CNN
@@ -541,10 +541,10 @@ Wire Wire Line
 Text GLabel 5900 7700 2    50   Input ~ 0
 DC12
 $Comp
-L Device:R *R8
+L Device:R *R7
 U 1 1 600FCD1C
 P 5650 7700
-F 0 "*R8" V 5700 7900 50  0000 C CNN
+F 0 "*R7" V 5700 7900 50  0000 C CNN
 F 1 "330" V 5766 7700 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 7700 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079474" H 5650 7700 50  0001 C CNN
@@ -565,10 +565,10 @@ Wire Wire Line
 Text GLabel 5900 7500 2    50   Input ~ 0
 DC12
 $Comp
-L Device:R *R7
+L Device:R *R6
 U 1 1 600F02FE
 P 5650 7500
-F 0 "*R7" V 5750 7500 50  0000 C CNN
+F 0 "*R6" V 5750 7500 50  0000 C CNN
 F 1 "330" V 5766 7500 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 7500 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079474" H 5650 7500 50  0001 C CNN
@@ -585,10 +585,10 @@ Wire Wire Line
 Wire Wire Line
 	5500 7000 5500 6900
 $Comp
-L Diode:BAV70 *D6
+L Diode:BAV70 *D5
 U 1 1 600A0DAA
 P 5300 7200
-F 0 "*D6" V 5254 7280 50  0000 L CNN
+F 0 "*D5" V 5254 7280 50  0000 L CNN
 F 1 "BAV23" V 5345 7280 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5300 7200 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bav23c.215" H 5300 7200 50  0001 C CNN
@@ -604,10 +604,10 @@ Wire Wire Line
 Text GLabel 4800 8800 2    50   Input ~ 0
 COM
 $Comp
-L Device:R *R4
+L Device:R *R3
 U 1 1 60035174
 P 3850 8450
-F 0 "*R4" H 3920 8496 50  0000 L CNN
+F 0 "*R3" H 3920 8496 50  0000 L CNN
 F 1 "330" H 3920 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3780 8450 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079474" H 3850 8450 50  0001 C CNN
@@ -632,10 +632,10 @@ F 3 "~" H 4100 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED *D4
+L Device:LED *D3
 U 1 1 60035159
 P 3850 8850
-F 0 "*D4" V 3800 9050 50  0000 R CNN
+F 0 "*D3" V 3800 9050 50  0000 R CNN
 F 1 "BL-LS0805UYC" V 3798 8732 50  0001 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 3850 8850 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bl-ls0805uyc" H 3850 8850 50  0001 C CNN
@@ -644,10 +644,10 @@ F 4 "https://www.chipdip.ru/product/bl-ls0805uyc" V 3850 8850 50  0001 C CNN "Fi
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R *R6
+L Device:R *R5
 U 1 1 6003514C
 P 5650 6900
-F 0 "*R6" V 5750 6900 50  0000 C CNN
+F 0 "*R5" V 5750 6900 50  0000 C CNN
 F 1 "330" V 5766 6900 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 6900 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079474" H 5650 6900 50  0001 C CNN
@@ -657,10 +657,10 @@ $EndComp
 Text GLabel 5900 7000 2    50   Input ~ 0
 SigOut1M1
 $Comp
-L Isolator:4N35 *U5
+L Isolator:4N35 *U4
 U 1 1 6003513F
 P 4400 8700
-F 0 "*U5" H 4400 9025 50  0000 C CNN
+F 0 "*U4" H 4400 9025 50  0000 C CNN
 F 1 "4N35" H 4400 8934 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 4200 8500 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 4400 8700 50  0001 L CNN
@@ -688,10 +688,10 @@ Wire Wire Line
 Wire Wire Line
 	1250 9250 1350 9250
 $Comp
-L Device:LED D2
+L Device:LED D1
 U 1 1 60D3B2F7
 P 1250 9400
-F 0 "D2" V 1150 9550 50  0000 R CNN
+F 0 "D1" V 1150 9550 50  0000 R CNN
 F 1 "BL-LS0805UYC" V 1198 9282 50  0001 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 1250 9400 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bl-ls0805uyc" H 1250 9400 50  0001 C CNN
@@ -740,10 +740,10 @@ F 3 "https://www.chipdip.ru/product/idcc-26ms" H 700 8000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R *R2
+L Device:R *R1
 U 1 1 60BFCCA5
 P 1350 7400
-F 0 "*R2" V 1250 7350 50  0000 L CNN
+F 0 "*R1" V 1250 7350 50  0000 L CNN
 F 1 "330" H 1150 7350 50  0001 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1280 7400 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079474" H 1350 7400 50  0001 C CNN
@@ -751,10 +751,10 @@ F 3 "https://www.chipdip.ru/product0/9000079474" H 1350 7400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Isolator:4N35 *U3
+L Isolator:4N35 *U2
 U 1 1 60BFC05F
 P 1800 7700
-F 0 "*U3" H 1800 7900 50  0000 C CNN
+F 0 "*U2" H 1800 7900 50  0000 C CNN
 F 1 "4N35" H 1800 7934 50  0001 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 1600 7500 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 1800 7700 50  0001 L CNN
@@ -767,10 +767,10 @@ PanelIN
 Text GLabel 2300 8750 2    50   Input ~ 0
 PanelLED
 $Comp
-L Device:R *R3
+L Device:R *R2
 U 1 1 6064D7B3
 P 2150 8750
-F 0 "*R3" V 2250 8750 50  0000 C CNN
+F 0 "*R2" V 2250 8750 50  0000 C CNN
 F 1 "100" V 2050 8750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2080 8750 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079462" H 2150 8750 50  0001 C CNN
@@ -789,10 +789,10 @@ F 3 "~" H 2550 9250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Isolator:4N35 *U2
+L Isolator:4N35 *U1
 U 1 1 6035CB88
 P 1700 8850
-F 0 "*U2" H 1700 9050 50  0000 C CNN
+F 0 "*U1" H 1700 9050 50  0000 C CNN
 F 1 "4N35" H 1700 9084 50  0001 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 1500 8650 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 1700 8850 50  0001 L CNN
@@ -816,10 +816,10 @@ F 3 "https://www.chipdip.ru/product0/9000079474" H 1100 9250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Isolator:4N35 U1
+L Isolator:4N35 U2
 U 1 1 6031ACC6
 P 1650 9400
-F 0 "U1" H 1650 9600 50  0000 C CNN
+F 0 "U2" H 1650 9600 50  0000 C CNN
 F 1 "4N35" H 1650 9634 50  0001 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 1450 9200 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 1650 9400 50  0001 L CNN
@@ -869,10 +869,10 @@ Wire Wire Line
 	1650 10150 1800 10150
 Connection ~ 1800 10150
 $Comp
-L Diode:SM6T33A *D3
+L Diode:SM6T33A *D2
 U 1 1 5FC70646
 P 1650 10500
-F 0 "*D3" V 1650 10300 50  0000 L CNN
+F 0 "*D2" V 1650 10300 50  0000 L CNN
 F 1 "SM6T22A" V 1750 10150 50  0000 L CNN
 F 2 "Diode_SMD:D_SMB" H 1650 10300 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/8001786864" H 1600 10500 50  0001 C CNN
@@ -897,10 +897,10 @@ Wire Wire Line
 	1200 10250 1350 10250
 Connection ~ 1300 10850
 $Comp
-L Diode:1N4003 D1
+L Diode:1N4003 D2
 U 1 1 602AB9E6
 P 1500 10150
-F 0 "D1" H 1500 9933 50  0000 C CNN
+F 0 "D2" H 1500 9933 50  0000 C CNN
 F 1 "1N4003" H 1500 10024 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1500 9975 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1500 10150 50  0001 C CNN
@@ -908,10 +908,10 @@ F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1500 10150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D2
+L Device:LED D3
 U 1 1 60297373
 P 1800 10650
-F 0 "D2" V 1800 10600 50  0000 R CNN
+F 0 "D3" V 1800 10600 50  0000 R CNN
 F 1 "BL-LS0805UYC" V 1748 10532 50  0001 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 1800 10650 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bl-ls0805uyc" H 1800 10650 50  0001 C CNN
@@ -920,10 +920,10 @@ F 4 "https://www.chipdip.ru/product/bl-ls0805uyc" V 1800 10650 50  0001 C CNN "F
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R1
+L Device:R R2
 U 1 1 6029735C
 P 1800 10300
-F 0 "R1" H 1870 10346 50  0000 L CNN
+F 0 "R2" H 1870 10346 50  0000 L CNN
 F 1 "330" H 1870 10255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1730 10300 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079474" H 1800 10300 50  0001 C CNN
@@ -946,7 +946,7 @@ U 1 1 601FD643
 P 900 10750
 F 0 "J2" H 950 11050 50  0000 C CNN
 F 1 "DS-201" H 957 10976 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 950 10710 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" H 950 10710 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/ds-201" H 950 10710 50  0001 C CNN
 	1    900  10750
 	1    0    0    -1  
@@ -969,10 +969,10 @@ $EndComp
 Wire Wire Line
 	12350 5950 12350 6000
 $Comp
-L Device:R *R15
+L Device:R *R14
 U 1 1 5FF598EF
 P 12500 5950
-F 0 "*R15" V 12400 5900 50  0000 L CNN
+F 0 "*R14" V 12400 5900 50  0000 L CNN
 F 1 "330" V 12400 5850 50  0001 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 12430 5950 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079474" H 12500 5950 50  0001 C CNN
@@ -1000,10 +1000,10 @@ F 3 "~" H 12650 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED *D12
+L Device:LED *D11
 U 1 1 5FF598FA
 P 12350 6150
-F 0 "*D12" V 12350 6100 50  0000 R CNN
+F 0 "*D11" V 12350 6100 50  0000 R CNN
 F 1 "BL-LS0805UYC" V 12298 6032 50  0001 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 12350 6150 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bl-ls0805uyc" H 12350 6150 50  0001 C CNN
@@ -1012,10 +1012,10 @@ F 4 "https://www.chipdip.ru/product/bl-ls0805uyc" V 12350 6150 50  0001 C CNN "F
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R *R16
+L Device:R *R15
 U 1 1 5FF2BE3D
 P 13400 6200
-F 0 "*R16" V 13193 6200 50  0000 C CNN
+F 0 "*R15" V 13193 6200 50  0000 C CNN
 F 1 "330" V 13284 6200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 13330 6200 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079474" H 13400 6200 50  0001 C CNN
@@ -1029,10 +1029,10 @@ Wire Wire Line
 Text GLabel 13350 6400 2    50   Input ~ 0
 SigOut2
 $Comp
-L Isolator:4N35 *U9
+L Isolator:4N35 *U8
 U 1 1 5FF0D334
 P 12950 6300
-F 0 "*U9" H 12950 6625 50  0000 C CNN
+F 0 "*U8" H 12950 6625 50  0000 C CNN
 F 1 "4N35" H 12950 6534 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 12750 6100 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 12950 6300 50  0001 L CNN
@@ -1112,10 +1112,10 @@ Connection ~ 9000 6600
 Wire Wire Line
 	9300 6600 9000 6600
 $Comp
-L Device:LED *D11
+L Device:LED *D10
 U 1 1 6030FEA3
 P 9000 6750
-F 0 "*D11" V 9039 6632 50  0000 R CNN
+F 0 "*D10" V 9039 6632 50  0000 R CNN
 F 1 "BL-LS0805UYC" V 8948 6632 50  0001 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 9000 6750 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bl-ls0805uyc" H 9000 6750 50  0001 C CNN
@@ -1124,10 +1124,10 @@ F 4 "https://www.chipdip.ru/product/bl-ls0805uyc" V 9000 6750 50  0001 C CNN "Fi
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R *R14
+L Device:R *R13
 U 1 1 6030FE98
 P 8800 6600
-F 0 "*R14" V 8700 6600 50  0000 C CNN
+F 0 "*R13" V 8700 6600 50  0000 C CNN
 F 1 "100" V 8600 6600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8730 6600 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079462" H 8800 6600 50  0001 C CNN
@@ -1137,10 +1137,10 @@ $EndComp
 Wire Wire Line
 	9000 6600 8950 6600
 $Comp
-L Isolator:4N35 *U8
+L Isolator:4N35 *U7
 U 1 1 6030FE8D
 P 9600 6700
-F 0 "*U8" H 9600 6900 50  0000 C CNN
+F 0 "*U7" H 9600 6900 50  0000 C CNN
 F 1 "4N35" H 9600 6934 50  0001 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 9400 6500 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 9600 6700 50  0001 L CNN
@@ -1157,10 +1157,10 @@ Connection ~ 9000 6200
 Wire Wire Line
 	9300 6200 9000 6200
 $Comp
-L Device:LED *D10
+L Device:LED *D9
 U 1 1 6030FE7D
 P 9000 6350
-F 0 "*D10" V 9039 6232 50  0000 R CNN
+F 0 "*D9" V 9039 6232 50  0000 R CNN
 F 1 "BL-LS0805UYC" V 8948 6232 50  0001 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 9000 6350 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bl-ls0805uyc" H 9000 6350 50  0001 C CNN
@@ -1169,10 +1169,10 @@ F 4 "https://www.chipdip.ru/product/bl-ls0805uyc" V 9000 6350 50  0001 C CNN "Fi
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R *R13
+L Device:R *R12
 U 1 1 6030FE72
 P 8800 6200
-F 0 "*R13" V 8700 6200 50  0000 C CNN
+F 0 "*R12" V 8700 6200 50  0000 C CNN
 F 1 "100" V 8600 6200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8730 6200 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079462" H 8800 6200 50  0001 C CNN
@@ -1182,10 +1182,10 @@ $EndComp
 Wire Wire Line
 	9000 6200 8950 6200
 $Comp
-L Isolator:4N35 *U7
+L Isolator:4N35 *U6
 U 1 1 6030FE67
 P 9600 6300
-F 0 "*U7" H 9600 6500 50  0000 C CNN
+F 0 "*U6" H 9600 6500 50  0000 C CNN
 F 1 "4N35" H 9600 6534 50  0001 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 9400 6100 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 9600 6300 50  0001 L CNN
@@ -1202,10 +1202,10 @@ Connection ~ 9000 5800
 Wire Wire Line
 	9300 5800 9000 5800
 $Comp
-L Device:LED *D9
+L Device:LED *D8
 U 1 1 6030FE57
 P 9000 5950
-F 0 "*D9" V 9039 5832 50  0000 R CNN
+F 0 "*D8" V 9039 5832 50  0000 R CNN
 F 1 "BL-LS0805UYC" V 8948 5832 50  0001 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 9000 5950 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bl-ls0805uyc" H 9000 5950 50  0001 C CNN
@@ -1214,10 +1214,10 @@ F 4 "https://www.chipdip.ru/product/bl-ls0805uyc" V 9000 5950 50  0001 C CNN "Fi
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R *R12
+L Device:R *R11
 U 1 1 6030FE4C
 P 8800 5800
-F 0 "*R12" V 8700 5800 50  0000 C CNN
+F 0 "*R11" V 8700 5800 50  0000 C CNN
 F 1 "100" V 8600 5800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8730 5800 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079462" H 8800 5800 50  0001 C CNN
@@ -1227,10 +1227,10 @@ $EndComp
 Wire Wire Line
 	9000 5800 8950 5800
 $Comp
-L Isolator:4N35 *U6
+L Isolator:4N35 *U5
 U 1 1 6030FE41
 P 9600 5900
-F 0 "*U6" H 9600 6100 50  0000 C CNN
+F 0 "*U5" H 9600 6100 50  0000 C CNN
 F 1 "4N35" H 9600 6134 50  0001 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 9400 5700 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 9600 5900 50  0001 L CNN
@@ -1335,10 +1335,10 @@ Wire Wire Line
 Wire Wire Line
 	10600 4200 10600 4300
 $Comp
-L Device:R R14
+L Device:R R15
 U 1 1 5FCDF4E3
 P 10100 4000
-F 0 "R14" V 10307 4000 50  0000 C CNN
+F 0 "R15" V 10307 4000 50  0000 C CNN
 F 1 "100" V 10216 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 10030 4000 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079462" H 10100 4000 50  0001 C CNN
@@ -1348,10 +1348,10 @@ $EndComp
 Entry Wire Line
 	9650 4100 9750 4000
 $Comp
-L Isolator:4N35 U14
+L Isolator:4N35 U15
 U 1 1 5FCDF4D7
 P 10900 4100
-F 0 "U14" H 10900 4425 50  0000 C CNN
+F 0 "U15" H 10900 4425 50  0000 C CNN
 F 1 "4N35" H 10900 4334 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 10700 3900 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 10900 4100 50  0001 L CNN
@@ -1364,10 +1364,10 @@ Wire Wire Line
 Wire Wire Line
 	10600 3600 10600 3700
 $Comp
-L Device:R R13
+L Device:R R14
 U 1 1 5FCDF4B9
 P 10100 3400
-F 0 "R13" V 10307 3400 50  0000 C CNN
+F 0 "R14" V 10307 3400 50  0000 C CNN
 F 1 "100" V 10216 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 10030 3400 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079462" H 10100 3400 50  0001 C CNN
@@ -1377,10 +1377,10 @@ $EndComp
 Entry Wire Line
 	9650 3500 9750 3400
 $Comp
-L Isolator:4N35 U13
+L Isolator:4N35 U14
 U 1 1 5FCDF4AD
 P 10900 3500
-F 0 "U13" H 10900 3825 50  0000 C CNN
+F 0 "U14" H 10900 3825 50  0000 C CNN
 F 1 "4N35" H 10900 3734 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 10700 3300 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 10900 3500 50  0001 L CNN
@@ -1393,10 +1393,10 @@ Wire Wire Line
 Wire Wire Line
 	10600 3000 10600 3100
 $Comp
-L Device:R R12
+L Device:R R13
 U 1 1 5FCDF48F
 P 10100 2800
-F 0 "R12" V 10307 2800 50  0000 C CNN
+F 0 "R13" V 10307 2800 50  0000 C CNN
 F 1 "100" V 10216 2800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 10030 2800 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079462" H 10100 2800 50  0001 C CNN
@@ -1406,10 +1406,10 @@ $EndComp
 Entry Wire Line
 	9650 2900 9750 2800
 $Comp
-L Isolator:4N35 U12
+L Isolator:4N35 U13
 U 1 1 5FCDF483
 P 10900 2900
-F 0 "U12" H 10900 3225 50  0000 C CNN
+F 0 "U13" H 10900 3225 50  0000 C CNN
 F 1 "4N35" H 10900 3134 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 10700 2700 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 10900 2900 50  0001 L CNN
@@ -1422,10 +1422,10 @@ Wire Wire Line
 Wire Wire Line
 	10600 2400 10600 2500
 $Comp
-L Device:R R11
+L Device:R R12
 U 1 1 5FCDF465
 P 10100 2200
-F 0 "R11" V 10307 2200 50  0000 C CNN
+F 0 "R12" V 10307 2200 50  0000 C CNN
 F 1 "100" V 10216 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 10030 2200 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079462" H 10100 2200 50  0001 C CNN
@@ -1435,10 +1435,10 @@ $EndComp
 Entry Wire Line
 	9650 2300 9750 2200
 $Comp
-L Isolator:4N35 U11
+L Isolator:4N35 U12
 U 1 1 5FCDF459
 P 10900 2300
-F 0 "U11" H 10900 2625 50  0000 C CNN
+F 0 "U12" H 10900 2625 50  0000 C CNN
 F 1 "4N35" H 10900 2534 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 10700 2100 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 10900 2300 50  0001 L CNN
@@ -1451,10 +1451,10 @@ Wire Wire Line
 Wire Wire Line
 	10600 1800 10600 1900
 $Comp
-L Device:R R10
+L Device:R R11
 U 1 1 5FCDF43C
 P 10100 1600
-F 0 "R10" V 10307 1600 50  0000 C CNN
+F 0 "R11" V 10307 1600 50  0000 C CNN
 F 1 "100" V 10216 1600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 10030 1600 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079462" H 10100 1600 50  0001 C CNN
@@ -1464,10 +1464,10 @@ $EndComp
 Entry Wire Line
 	9650 1700 9750 1600
 $Comp
-L Isolator:4N35 U10
+L Isolator:4N35 U11
 U 1 1 5FCDF430
 P 10900 1700
-F 0 "U10" H 10900 2025 50  0000 C CNN
+F 0 "U11" H 10900 2025 50  0000 C CNN
 F 1 "4N35" H 10900 1934 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 10700 1500 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 10900 1700 50  0001 L CNN
@@ -1484,10 +1484,10 @@ Connection ~ 10300 1000
 Wire Wire Line
 	10600 1000 10300 1000
 $Comp
-L Device:LED D5
+L Device:LED D6
 U 1 1 5FCDF41E
 P 10300 1150
-F 0 "D5" V 10339 1032 50  0000 R CNN
+F 0 "D6" V 10339 1032 50  0000 R CNN
 F 1 "BL-LS0805UYC" V 10248 1032 50  0001 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 10300 1150 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bl-ls0805uyc" H 10300 1150 50  0001 C CNN
@@ -1496,10 +1496,10 @@ F 4 "https://www.chipdip.ru/product/bl-ls0805uyc" V 10300 1150 50  0001 C CNN "F
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R9
+L Device:R R10
 U 1 1 5FCDF413
 P 10100 1000
-F 0 "R9" V 10307 1000 50  0000 C CNN
+F 0 "R10" V 10307 1000 50  0000 C CNN
 F 1 "100" V 10216 1000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 10030 1000 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079462" H 10100 1000 50  0001 C CNN
@@ -1511,10 +1511,10 @@ Wire Wire Line
 Entry Wire Line
 	9650 1100 9750 1000
 $Comp
-L Isolator:4N35 U9
+L Isolator:4N35 U10
 U 1 1 5FCDF405
 P 10900 1100
-F 0 "U9" H 10900 1425 50  0000 C CNN
+F 0 "U10" H 10900 1425 50  0000 C CNN
 F 1 "4N35" H 10900 1334 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-6_W9.53mm" H 10700 900 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 10900 1100 50  0001 L CNN
@@ -1983,10 +1983,10 @@ F 3 "~" H 12700 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D4
+L Device:LED D5
 U 1 1 5FC785F5
 P 8450 1150
-F 0 "D4" V 8489 1032 50  0000 R CNN
+F 0 "D5" V 8489 1032 50  0000 R CNN
 F 1 "BL-LS0805UYC" V 8398 1032 50  0001 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 8450 1150 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bl-ls0805uyc" H 8450 1150 50  0001 C CNN
@@ -2161,10 +2161,10 @@ F 3 "~" H 1200 3800 50  0001 C CNN
 $EndComp
 Connection ~ 1200 3900
 $Comp
-L Interface_Expansion:MCP23S17_SP U2
+L Interface_Expansion:MCP23S17_SP U3
 U 1 1 60086285
 P 6250 2000
-F 0 "U2" H 6600 3050 50  0000 C CNN
+F 0 "U3" H 6600 3050 50  0000 C CNN
 F 1 "MCP23SigIn1M17_SP" H 6600 2950 50  0000 C CNN
 F 2 "Package_DIP:DIP-28_W7.62mm" H 6450 1000 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 6450 900 50  0001 L CNN
@@ -2230,10 +2230,10 @@ Connection ~ 5550 3100
 Text GLabel 3600 650  2    50   Input ~ 0
 5V
 $Comp
-L Interface_Expansion:MCP23S17_SP *U4
+L Interface_Expansion:MCP23S17_SP *U3
 U 1 1 609574B0
 P 3600 1750
-F 0 "*U4" H 3950 2800 50  0000 C CNN
+F 0 "*U3" H 3950 2800 50  0000 C CNN
 F 1 "MCP23SigIn1M17_SP" H 3950 2700 50  0000 C CNN
 F 2 "Package_DIP:DIP-28_W7.62mm" H 3800 750 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3800 650 50  0001 L CNN
@@ -3065,14 +3065,6 @@ Wire Wire Line
 	2550 10900 2550 10700
 Wire Wire Line
 	2550 10900 3050 10900
-Wire Bus Line
-	7800 1100 7800 2050
-Wire Bus Line
-	7800 2050 7800 4100
-Wire Bus Line
-	9650 650  9650 4100
-Wire Bus Line
-	7250 650  7250 5050
 Connection ~ 2550 10700
 $Comp
 L Jumper:SolderJumper_2_Open JP2
@@ -3100,4 +3092,12 @@ Text GLabel 7250 2500 2    50   Input ~ 0
 PanelLED
 Text GLabel 7250 2600 2    50   Input ~ 0
 PanelIN
+Wire Bus Line
+	7800 1100 7800 2050
+Wire Bus Line
+	7800 2050 7800 4100
+Wire Bus Line
+	9650 650  9650 4100
+Wire Bus Line
+	7250 650  7250 5050
 $EndSCHEMATC
