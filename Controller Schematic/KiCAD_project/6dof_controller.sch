@@ -903,7 +903,7 @@ P 1500 10150
 F 0 "D2" H 1500 9933 50  0000 C CNN
 F 1 "1N4003" H 1500 10024 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1500 9975 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1500 10150 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/1n4003-3" H 1500 10150 50  0001 C CNN
 	1    1500 10150
 	-1   0    0    1   
 $EndComp
@@ -1614,7 +1614,7 @@ P 12700 3050
 F 0 "J5" H 12750 3750 50  0000 C CNN
 F 1 "Conn_02x13_Top_Bottom" H 12750 3776 50  0001 C CNN
 F 2 "Connector_IDC:IDC-Header_2x13-1MP_P2.54mm_Latch_Vertical" H 12700 3050 50  0001 C CNN
-F 3 "~" H 12700 3050 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/idc-26ms" H 12700 3050 50  0001 C CNN
 	1    12700 3050
 	1    0    0    -1  
 $EndComp
@@ -1673,7 +1673,7 @@ P 14900 4500
 F 0 "J10" H 14950 5200 50  0000 C CNN
 F 1 "Conn_02x13_Top_Bottom" H 14950 5226 50  0001 C CNN
 F 2 "Connector_IDC:IDC-Header_2x13-1MP_P2.54mm_Latch_Vertical" H 14900 4500 50  0001 C CNN
-F 3 "~" H 14900 4500 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/idc-26ms" H 14900 4500 50  0001 C CNN
 	1    14900 4500
 	1    0    0    -1  
 $EndComp
@@ -1732,7 +1732,7 @@ P 12700 4550
 F 0 "J6" H 12750 5250 50  0000 C CNN
 F 1 "Conn_02x13_Top_Bottom" H 12750 5276 50  0001 C CNN
 F 2 "Connector_IDC:IDC-Header_2x13-1MP_P2.54mm_Latch_Vertical" H 12700 4550 50  0001 C CNN
-F 3 "~" H 12700 4550 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/idc-26ms" H 12700 4550 50  0001 C CNN
 	1    12700 4550
 	1    0    0    -1  
 $EndComp
@@ -1791,7 +1791,7 @@ P 14900 3000
 F 0 "J9" H 14950 3700 50  0000 C CNN
 F 1 "Conn_02x13_Top_Bottom" H 14950 3726 50  0001 C CNN
 F 2 "Connector_IDC:IDC-Header_2x13-1MP_P2.54mm_Latch_Vertical" H 14900 3000 50  0001 C CNN
-F 3 "~" H 14900 3000 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/idc-26ms" H 14900 3000 50  0001 C CNN
 	1    14900 3000
 	1    0    0    -1  
 $EndComp
@@ -1850,7 +1850,7 @@ P 14900 1500
 F 0 "J8" H 14950 2200 50  0000 C CNN
 F 1 "Conn_02x13_Top_Bottom" H 14950 2226 50  0001 C CNN
 F 2 "Connector_IDC:IDC-Header_2x13-1MP_P2.54mm_Latch_Vertical" H 14900 1500 50  0001 C CNN
-F 3 "~" H 14900 1500 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/idc-26ms" H 14900 1500 50  0001 C CNN
 	1    14900 1500
 	1    0    0    -1  
 $EndComp
@@ -1895,10 +1895,10 @@ Wire Wire Line
 Wire Wire Line
 	13450 1550 13450 1650
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J7
+L Connector_Generic:Conn_02x05_Odd_Even *J7
 U 1 1 608ED766
 P 13650 1350
-F 0 "J7" H 13700 1050 50  0000 C CNN
+F 0 "*J7" H 13700 1050 50  0000 C CNN
 F 1 "Conn_02x05_Top_Bottom" H 13700 1676 50  0001 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 13650 1350 50  0001 C CNN
 F 3 "~" H 13650 1350 50  0001 C CNN
@@ -1967,7 +1967,7 @@ P 12700 1450
 F 0 "J4" H 12750 2267 50  0000 C CNN
 F 1 "Conn_02x13_Top_Bottom" H 12750 2176 50  0001 C CNN
 F 2 "Connector_IDC:IDC-Header_2x13-1MP_P2.54mm_Latch_Vertical" H 12700 1450 50  0001 C CNN
-F 3 "~" H 12700 1450 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/idc-26ms" H 12700 1450 50  0001 C CNN
 	1    12700 1450
 	1    0    0    -1  
 $EndComp
@@ -3056,14 +3056,6 @@ Text GLabel 7250 2500 2    50   Input ~ 0
 PanelLED
 Text GLabel 7250 2600 2    50   Input ~ 0
 PanelIN
-Wire Bus Line
-	7800 1100 7800 2050
-Wire Bus Line
-	7800 2050 7800 4100
-Wire Bus Line
-	9650 650  9650 4100
-Wire Bus Line
-	7250 650  7250 5050
 $Comp
 L Jumper:SolderJumper_2_Open JP4
 U 1 1 5FCE05BC
@@ -3110,4 +3102,12 @@ F 3 "https://www.chipdip.ru/product/ds-201" H 950 10710 50  0001 C CNN
 	1    900  10750
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	7800 1100 7800 2050
+Wire Bus Line
+	7800 2050 7800 4100
+Wire Bus Line
+	9650 650  9650 4100
+Wire Bus Line
+	7250 650  7250 5050
 $EndSCHEMATC

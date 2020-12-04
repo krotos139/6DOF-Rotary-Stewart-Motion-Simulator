@@ -23,6 +23,14 @@ alt="Motion Sim Example 2" height="340" width="auto" border="0" /></a>
 # Projects Included
 These are the components of the project that are included in this repository
 
+## Technical 
+
+I made all draws in Kompas 3D. I will make drawings in the future.
+
+This is current project:
+
+<img src="Technical/Assembly_All.png" width="480">
+
 ## Controller
 This is an ESP32 Arduino project. This interfaces with the PC through software like simtools, after correctly configuring. This project utilizes both ESP32 cores in order to maximize refresh rates to 1000Hz, or 1ms interval. A custom MCP23S17 library is included so the outputs of all 6 motors can be set at one time instead of setting them individually, this saves time and allows for more pulses per second. This increase allows for higher movement precision on the rotational arm. There is also a filter library included, this is still in early testing.
 
