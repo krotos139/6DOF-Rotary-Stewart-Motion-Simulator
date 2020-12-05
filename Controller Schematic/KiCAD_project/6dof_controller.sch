@@ -2379,4 +2379,6 @@ Wire Bus Line
 	6700 3400 6700 5550
 Wire Bus Line
 	7250 650  7250 3400
+Text Notes 15500 9750 0    50   ~ 0
+Case: G748A
 $EndSCHEMATC

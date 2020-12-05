@@ -48,11 +48,13 @@ We developed our controller board with optocoupler:
 
 <img src="Controller Schematic/KiCAD_project/schematic.png" width="480">
 
-We use sensor bord from Christopher Knauf: https://github.com/knaufinator/6DOF-Rotary-Stewart-Motion-Simulator/blob/master/Controller%20Schematic/Schematic_Sensor%20array.png
+We use sensor bord from Christopher Knauf: <a href="https://github.com/knaufinator/6DOF-Rotary-Stewart-Motion-Simulator"><img src="https://github.com/knaufinator/6DOF-Rotary-Stewart-Motion-Simulator/blob/master/Controller%20Schematic/Schematic_Sensor%20array.png"></a>
 
 ## Controller PCB
 
 We have a problem with USB interface. We start to do second PCB:
+
+<img src="Controller Schematic/KiCAD_project/PCB.png" width="480">
 
 <img src="Controller Schematic/KiCAD_project/PCB1.png" width="480">
 
