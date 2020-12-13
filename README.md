@@ -126,6 +126,7 @@ PCB
 These are my settings on the Servo Driver aasd-15a these both enable specific modes as well define the time it should take to accelerate and decelerate the platform before it hits max speed. This is useful for when you want to protect the platform from self destruction due to the fast movements. Make them to large and the platform will feel slugish.
 - pn002 - Control Mode - "002"
 - pn003 - Servo enable - "001"
+- pn033 - DSZRtriggermode - "003" Power on automatically
 - pn034 - The origin return reference point model - "001" Inversion for REF(rising along the trigger)as a reference point
 - pn035 - The origin back to the origin model - "000" Default
 - pn036 - The origin position offset high - "011" ten thousand pulse
