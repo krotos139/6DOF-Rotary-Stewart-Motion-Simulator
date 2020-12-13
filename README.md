@@ -122,9 +122,9 @@ PCB
 * [Wind Generator 90 Degree angle 3"-> 2" Reducer](https://amzn.to/2uN6J9z)
 * [Wire Wrap](https://amzn.to/2u3jiNu)
 
-## AC Servo motor settings
+## AC Servo motor settings for 6DoF
 These are my settings on the Servo Driver aasd-15a these both enable specific modes as well define the time it should take to accelerate and decelerate the platform before it hits max speed. This is useful for when you want to protect the platform from self destruction due to the fast movements. Make them to large and the platform will feel slugish.
-- pn002 - Control Mode - "002"
+- pn002 - Control Mode - "002" Default
 - pn003 - Servo enable - "001"
 - pn033 - DSZRtriggermode - "003" Power on automatically
 - pn034 - The origin return reference point model - "001" Inversion for REF(rising along the trigger)as a reference point
@@ -148,5 +148,42 @@ These are my settings on the Servo Driver aasd-15a these both enable specific mo
 - pn111 - S-shaped filtering time constant Ta position instruction - "50"
 - pn112 - position instruction Ts S-shaped filtering
 
-
 time constant Ts - "50"
+
+Default settings:
+- pn002 - Control Mode - "002"
+- pn003 - Servo enable - "000"
+- pn033 - DSZRtriggermode - "000"
+- pn034 - The origin return reference point model - "000"
+- pn035 - The origin back to the origin model - "000"
+- pn036 - The origin position offset high - "000"
+- pn037 - The origin position offset low - "0000"
+- pn038 - The origin back to the first speed - "200" R/min
+- pn039 - The origin back to the second speed - "50" R/min
+- pn040 - The accelerating time of origin - "050"
+- pn041 - The origin return to slow down time - "050"
+- pn042 - The origin in the delay - "60" ms
+- pn043 - Complete the signal delay of origin - "080"
+- pn044 - The origin return instruction execution mode - "000"
+- pn052 - SigIn1 is "REF" - "001"
+- pn053 - SigIn2 is "PSTOP" - "002"
+- pn054 - SigIn3 is "PClear" - "019"
+- pn055 - SigIn4 is "INH" - "008"
+- pn098 - Gear - "1"
+- pn109 - Position command deceleration mode- "001"
+- pn110 - Position command a filtering time constant - "050"
+- pn111 - S-shaped filtering time constant Ta position instruction - "50"
+- pn112 - position instruction Ts S-shaped filtering - "20"
+
+## AC Servo motor settings for Wheel
+
+- PN002 = 0	(control mode - voltage mode, requires restart) (Default:02)
+- PN003 = 0	( Servo enabled? - external) (Default:00)
+- PN018 = 0	(Take the encoder output pulse AB phase logic - 0-1) (Default:00)
+- PN051 = 1500	(Motor max RPM - see motor specs) (Default:3000)
+- PN053 = 18? 	(SigIn 2 port functional allocation  -27 - 27) - 58? "command reverse" function number range name
+- PN188 = 159	(Analog torque instruction smooth filtering time - 1-500ms) (Default:1)
+- PN189 = 39 	(Analog torque instruction gain 1-300 %/V) (Default:30)
+- PN190 = 0	(Analog torque instruction offset adjustment  -1.5v - 1.5v) (Default:0)
+- PN191 = 1	(Simulation of torque command direction - try 0 first) (Default:0)
+- PN198 = 120 	(Torque control speed limit - 0-4500rpm) (Default:2500)
