@@ -182,7 +182,7 @@ Default settings:
 - PN018 = 0	(Take the encoder output pulse AB phase logic - 0-1) (Default:00)
 - PN051 = 1500	(Motor max RPM - see motor specs) (Default:3000)
 - PN053 = 18? 	(SigIn 2 port functional allocation  -27 - 27) - 58? "command reverse" function number range name
-- PN188 = 159	(Analog torque instruction smooth filtering time - 1-500ms) (Default:1)
+- PN188 = 159	(Analog torque instruction smooth filtering time - 1-500ms) (Default:5)
 - PN189 = 39 	(Analog torque instruction gain 1-300 %/V) (Default:30)
 - PN190 = 0	(Analog torque instruction offset adjustment  -1.5v - 1.5v) (Default:0)
 - PN191 = 1	(Simulation of torque command direction - try 0 first) (Default:0)
