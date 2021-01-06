@@ -1,4 +1,4 @@
-update=1/6/2021 4:11:18 PM
+update=1/6/2021 11:26:12 PM
 version=1
 last_client=kicad
 [general]
@@ -29,14 +29,12 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.5
+TrackWidth2=0.5
 ViaDiameter1=1
 ViaDrill1=0.6
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
-dPairWidth2=0.5
-dPairGap2=0.3
-dPairViaGap2=0.5
 SilkLineWidth=0.12
 SilkTextSizeV=1
 SilkTextSizeH=1
@@ -241,7 +239,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=DIGITAL
-Clearance=0.2
+Clearance=0.3
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -252,7 +250,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=POWER
-Clearance=0.5
+Clearance=0.3
 TrackWidth=1
 ViaDiameter=1.4
 ViaDrill=0.8
