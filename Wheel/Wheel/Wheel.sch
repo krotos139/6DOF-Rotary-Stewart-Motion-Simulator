@@ -106,7 +106,7 @@ VREF-
 Wire Wire Line
 	2550 6250 2700 6250
 Text GLabel 1250 1700 0    50   Input ~ 0
-VREF-
+VREF+
 Wire Wire Line
 	1250 1700 1400 1700
 Wire Wire Line
@@ -322,9 +322,9 @@ L Device:LED D7
 U 1 1 5FF5173B
 P 7250 2100
 F 0 "D7" H 7243 1845 50  0000 C CNN
-F 1 "LED" H 7243 1936 50  0000 C CNN
-F 2 "" H 7250 2100 50  0001 C CNN
-F 3 "~" H 7250 2100 50  0001 C CNN
+F 1 "TO-2013BC-MRE" H 7243 1936 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7250 2100 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/to-2013bc-mre" H 7250 2100 50  0001 C CNN
 	1    7250 2100
 	-1   0    0    1   
 $EndComp
@@ -340,7 +340,7 @@ U 1 1 5FF5F58F
 P 4250 1100
 F 0 "J5" H 4307 1567 50  0000 C CNN
 F 1 "USB_B" H 4307 1476 50  0000 C CNN
-F 2 "" H 4400 1050 50  0001 C CNN
+F 2 "Connector_USB:USB_B_Lumberg_2411_02_Horizontal" H 4400 1050 50  0001 C CNN
 F 3 " ~" H 4400 1050 50  0001 C CNN
 	1    4250 1100
 	1    0    0    -1  
@@ -378,50 +378,16 @@ Wire Wire Line
 $Comp
 L Device:R R6
 U 1 1 5FF73859
-P 4950 1850
-F 0 "R6" V 4743 1850 50  0000 C CNN
-F 1 "1K5" V 4834 1850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4880 1850 50  0001 C CNN
-F 3 "~" H 4950 1850 50  0001 C CNN
-	1    4950 1850
+P 5550 1850
+F 0 "R6" V 5343 1850 50  0000 C CNN
+F 1 "1K5" V 5434 1850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5480 1850 50  0001 C CNN
+F 3 "~" H 5550 1850 50  0001 C CNN
+	1    5550 1850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4550 1850 4800 1850
-$Comp
-L Transistor_BJT:S8550 Q1
-U 1 1 5FF79801
-P 5400 1950
-F 0 "Q1" V 5728 1950 50  0000 C CNN
-F 1 "S8550" V 5637 1950 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5600 1875 50  0001 L CIN
-F 3 "http://www.unisonic.com.tw/datasheet/S8550.pdf" H 5400 1950 50  0001 L CNN
-	1    5400 1950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5100 1850 5200 1850
-Text GLabel 5900 1850 2    50   UnSpc ~ 0
+Text GLabel 5700 1850 2    50   UnSpc ~ 0
 3V
-$Comp
-L Device:R R7
-U 1 1 5FF8042F
-P 5650 2150
-F 0 "R7" V 5443 2150 50  0000 C CNN
-F 1 "1K5" V 5534 2150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 2150 50  0001 C CNN
-F 3 "~" H 5650 2150 50  0001 C CNN
-	1    5650 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5400 2150 5500 2150
-Text GLabel 5900 2150 2    50   UnSpc ~ 0
-GND
-Wire Wire Line
-	5900 1850 5600 1850
-Wire Wire Line
-	5800 2150 5900 2150
 Wire Notes Line
 	4750 1550 4750 2300
 Wire Notes Line
@@ -438,7 +404,7 @@ U 1 1 5FF8AC7A
 P 4750 2800
 F 0 "JP2" H 4750 3024 50  0000 C CNN
 F 1 "Jumper_3_Open" H 4750 2933 50  0000 C CNN
-F 2 "" H 4750 2800 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4750 2800 50  0001 C CNN
 F 3 "~" H 4750 2800 50  0001 C CNN
 	1    4750 2800
 	1    0    0    -1  
@@ -463,8 +429,8 @@ U 1 1 5FF929B8
 P 5800 3550
 F 0 "Y2" H 5800 3818 50  0000 C CNN
 F 1 "8MHz" H 5800 3727 50  0000 C CNN
-F 2 "Crystal:Crystal_HC49-U_Horizontal_1EP_style2" H 5800 3550 50  0001 C CNN
-F 3 "https://www.chipdip.ru/product0/8000902003" H 5800 3550 50  0001 C CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 5800 3550 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/8mhz-hc-49s" H 5800 3550 50  0001 C CNN
 	1    5800 3550
 	1    0    0    -1  
 $EndComp
@@ -548,101 +514,6 @@ Wire Wire Line
 	1350 2450 1450 2450
 Wire Wire Line
 	1350 2550 1450 2550
-$Comp
-L Device:Crystal_GND3 Y1
-U 1 1 5FFC3192
-P 4700 4350
-F 0 "Y1" H 4700 4618 50  0000 C CNN
-F 1 "32.768K" H 4700 4527 50  0000 C CNN
-F 2 "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal_1EP_style2" H 4700 4350 50  0001 C CNN
-F 3 "https://www.chipdip.ru/product0/8000902003" H 4700 4350 50  0001 C CNN
-	1    4700 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5FFC319C
-P 4500 4600
-F 0 "C3" H 4300 4650 50  0000 L CNN
-F 1 "6pF" H 4250 4550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4538 4450 50  0001 C CNN
-F 3 "https://www.chipdip.ru/product/grm2165c1h200j" H 4500 4600 50  0001 C CNN
-	1    4500 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C4
-U 1 1 5FFC31A6
-P 4900 4600
-F 0 "C4" H 5015 4646 50  0000 L CNN
-F 1 "6pF" H 5015 4555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4938 4450 50  0001 C CNN
-F 3 "https://www.chipdip.ru/product/grm2165c1h200j" H 4900 4600 50  0001 C CNN
-	1    4900 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4500 4450 4500 4350
-Wire Wire Line
-	4500 4350 4550 4350
-Wire Wire Line
-	4850 4350 4900 4350
-Wire Wire Line
-	4900 4350 4900 4450
-Wire Wire Line
-	4500 4750 4700 4750
-Text GLabel 4650 4850 0    50   UnSpc ~ 0
-GND
-Wire Wire Line
-	4700 4750 4700 4850
-Wire Wire Line
-	4700 4850 4650 4850
-Connection ~ 4700 4750
-Wire Wire Line
-	4700 4750 4900 4750
-$Comp
-L Device:R R4
-U 1 1 5FFC31BA
-P 4700 3950
-F 0 "R4" V 4493 3950 50  0000 C CNN
-F 1 "10M" V 4584 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4630 3950 50  0001 C CNN
-F 3 "https://www.chipdip.ru/product0/9000079833" H 4700 3950 50  0001 C CNN
-	1    4700 3950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4550 3950 4500 3950
-Wire Wire Line
-	4500 3950 4500 4350
-Connection ~ 4500 4350
-Wire Wire Line
-	4850 3950 4900 3950
-Wire Wire Line
-	4900 3950 4900 4350
-Connection ~ 4900 4350
-Text GLabel 4500 3650 1    50   UnSpc ~ 0
-OSC_IN
-Text GLabel 4900 3650 1    50   UnSpc ~ 0
-OSC_OUT
-Wire Wire Line
-	4500 3950 4500 3650
-Connection ~ 4500 3950
-Wire Wire Line
-	4900 3950 4900 3650
-Connection ~ 4900 3950
-Wire Wire Line
-	4700 4550 4700 4750
-Wire Notes Line
-	4200 3250 5200 3250
-Wire Notes Line
-	5200 3250 5200 4950
-Wire Notes Line
-	5200 4950 4200 4950
-Wire Notes Line
-	4200 4950 4200 3250
-Text Notes 4250 3350 0    50   ~ 0
-not installed
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J7
 U 1 1 5FFD7771
@@ -747,7 +618,7 @@ U 1 1 60037886
 P 5800 4500
 F 0 "JP3" H 5800 4735 50  0000 C CNN
 F 1 "Jumper_2_Open" H 5800 4644 50  0000 C CNN
-F 2 "" H 5800 4500 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5800 4500 50  0001 C CNN
 F 3 "~" H 5800 4500 50  0001 C CNN
 	1    5800 4500
 	1    0    0    -1  
@@ -932,7 +803,7 @@ U 1 1 6011B718
 P 9700 3750
 F 0 "U14" H 9400 4650 60  0000 C CNN
 F 1 "LTC2644" H 9400 4550 60  0000 C CNN
-F 2 "" H 9700 3650 60  0001 C CNN
+F 2 "Package_SO:MSOP-12_3x4mm_P0.65mm" H 9700 3650 60  0001 C CNN
 F 3 "" H 9700 3650 60  0001 C CNN
 	1    9700 3750
 	1    0    0    -1  
@@ -1212,7 +1083,7 @@ U 1 1 602F5B06
 P 6950 7050
 F 0 "JP4" V 6904 7118 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" V 6995 7118 50  0001 L CNN
-F 2 "" H 6950 7050 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6950 7050 50  0001 C CNN
 F 3 "~" H 6950 7050 50  0001 C CNN
 	1    6950 7050
 	0    -1   1    0   
@@ -1289,7 +1160,7 @@ U 1 1 6031E70A
 P 6950 7800
 F 0 "JP5" V 6996 7868 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" V 6905 7868 50  0001 L CNN
-F 2 "" H 6950 7800 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6950 7800 50  0001 C CNN
 F 3 "~" H 6950 7800 50  0001 C CNN
 	1    6950 7800
 	0    -1   -1   0   
@@ -1424,7 +1295,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 1400 9600 1000
 Text GLabel 10900 900  1    50   Input ~ 0
-DC12
+PWR
 Text GLabel 10950 1600 2    50   Input ~ 0
 COM
 $Comp
@@ -1450,10 +1321,6 @@ Wire Wire Line
 	10200 6350 10100 6350
 Wire Wire Line
 	10100 6250 10200 6250
-Text GLabel 10100 6450 0    50   Input ~ 0
-SigIn4
-Text GLabel 10800 6450 2    50   Input ~ 0
-SigIn3
 Text GLabel 10100 6350 0    50   Input ~ 0
 DRIVE_SigIn2
 Text GLabel 10100 6250 0    50   Input ~ 0
@@ -1462,12 +1329,8 @@ Wire Wire Line
 	10200 6850 10100 6850
 Wire Wire Line
 	10800 6750 10700 6750
-Text GLabel 10800 6750 2    50   Input ~ 0
-SigOut4
 Wire Wire Line
 	10200 6750 10100 6750
-Text GLabel 10100 6750 0    50   Input ~ 0
-SigOut1
 Wire Wire Line
 	10800 6650 10700 6650
 Wire Wire Line
@@ -1569,10 +1432,6 @@ Wire Notes Line
 	12700 550  12700 1800
 Wire Notes Line
 	12700 1800 9000 1800
-Text GLabel 10800 6650 2    50   Input ~ 0
-SigOut2
-Text GLabel 10100 6850 0    50   Input ~ 0
-SigOut3
 $Comp
 L Device:C C29
 U 1 1 60067AD9
@@ -1622,7 +1481,7 @@ U 1 1 5FDDD488
 P 10400 6350
 F 0 "J14" H 10450 7100 50  0000 C CNN
 F 1 "Conn_02x13_Top_Bottom" H 10450 7076 50  0001 C CNN
-F 2 "Connector_IDC:IDC-Header_2x13-1MP_P2.54mm_Latch_Vertical" H 10400 6350 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x13_P2.54mm_Latch_Vertical" H 10400 6350 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/idc-26ms" H 10400 6350 50  0001 C CNN
 	1    10400 6350
 	1    0    0    -1  
@@ -1665,8 +1524,8 @@ U 1 1 606517C2
 P 12450 6900
 F 0 "J15" H 12300 8400 50  0000 L CNN
 F 1 "DB25_Female" H 12100 8300 50  0000 L CNN
-F 2 "" H 12450 6900 50  0001 C CNN
-F 3 " ~" H 12450 6900 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 12450 6900 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/drb-25fa" H 12450 6900 50  0001 C CNN
 	1    12450 6900
 	1    0    0    -1  
 $EndComp
@@ -1936,18 +1795,12 @@ Text GLabel 3350 5550 2    50   Output ~ 0
 BTN12
 Text GLabel 3350 5650 2    50   Output ~ 0
 BTN13
-Text GLabel 3350 5750 2    50   Output ~ 0
+Text GLabel 3550 5750 2    50   Output ~ 0
 BTN14
-Text GLabel 3350 5850 2    50   Output ~ 0
+Text GLabel 3550 5850 2    50   Output ~ 0
 BTN15
-Text GLabel 3350 5950 2    50   Output ~ 0
+Text GLabel 3550 5950 2    50   Output ~ 0
 BTN16
-Wire Wire Line
-	3250 5950 3350 5950
-Wire Wire Line
-	3250 5850 3350 5850
-Wire Wire Line
-	3250 5750 3350 5750
 Wire Wire Line
 	3250 5650 3350 5650
 Wire Wire Line
@@ -1999,9 +1852,9 @@ L Device:LED D1
 U 1 1 603B162D
 P 3150 8200
 F 0 "D1" H 3143 7945 50  0000 C CNN
-F 1 "LED" H 3143 8036 50  0000 C CNN
-F 2 "" H 3150 8200 50  0001 C CNN
-F 3 "~" H 3150 8200 50  0001 C CNN
+F 1 "TO-2013BC-MRE" H 3143 8036 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3150 8200 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/to-2013bc-mre" H 3150 8200 50  0001 C CNN
 	1    3150 8200
 	1    0    0    -1  
 $EndComp
@@ -2040,9 +1893,9 @@ L Device:LED D2
 U 1 1 60480D64
 P 3150 9600
 F 0 "D2" H 3143 9345 50  0000 C CNN
-F 1 "LED" H 3143 9436 50  0000 C CNN
-F 2 "" H 3150 9600 50  0001 C CNN
-F 3 "~" H 3150 9600 50  0001 C CNN
+F 1 "TO-2013BC-MRE" H 3143 9436 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3150 9600 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/to-2013bc-mre" H 3150 9600 50  0001 C CNN
 	1    3150 9600
 	1    0    0    -1  
 $EndComp
@@ -2089,9 +1942,9 @@ L Device:LED D3
 U 1 1 609B322F
 P 3150 11050
 F 0 "D3" H 2900 10950 50  0000 C CNN
-F 1 "LED" H 2900 11050 50  0000 C CNN
-F 2 "" H 3150 11050 50  0001 C CNN
-F 3 "~" H 3150 11050 50  0001 C CNN
+F 1 "TO-2013BC-MRE" H 2900 11050 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3150 11050 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/to-2013bc-mre" H 3150 11050 50  0001 C CNN
 	1    3150 11050
 	1    0    0    -1  
 $EndComp
@@ -2107,8 +1960,6 @@ Wire Wire Line
 	2950 10000 2950 10150
 Wire Wire Line
 	2950 10150 3000 10150
-Text GLabel 2400 10750 0    50   UnSpc ~ 0
-5V
 $Comp
 L Isolator:PC817 U15
 U 1 1 60B32DF0
@@ -2173,8 +2024,6 @@ Text GLabel 10100 8100 0    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	10100 8100 10150 8100
-Wire Wire Line
-	2400 10750 2550 10750
 $Comp
 L Power_Protection:USBLC6-4SC6 U17
 U 1 1 60CC353F
@@ -2245,9 +2094,9 @@ L Device:LED D4
 U 1 1 60D4DFBC
 P 4450 7900
 F 0 "D4" H 4443 7645 50  0000 C CNN
-F 1 "LED" H 4443 7736 50  0000 C CNN
-F 2 "" H 4450 7900 50  0001 C CNN
-F 3 "~" H 4450 7900 50  0001 C CNN
+F 1 "TO-2013BC-MRE" H 4443 7736 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4450 7900 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/to-2013bc-mre" H 4450 7900 50  0001 C CNN
 	1    4450 7900
 	1    0    0    -1  
 $EndComp
@@ -2324,9 +2173,9 @@ L Device:LED D5
 U 1 1 615183CF
 P 5650 7900
 F 0 "D5" H 5643 7645 50  0000 C CNN
-F 1 "LED" H 5643 7736 50  0000 C CNN
-F 2 "" H 5650 7900 50  0001 C CNN
-F 3 "~" H 5650 7900 50  0001 C CNN
+F 1 "TO-2013BC-MRE" H 5643 7736 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 7900 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/to-2013bc-mre" H 5650 7900 50  0001 C CNN
 	1    5650 7900
 	1    0    0    -1  
 $EndComp
@@ -2524,9 +2373,9 @@ L Device:LED D6
 U 1 1 61BF6134
 P 5650 9400
 F 0 "D6" H 5643 9145 50  0000 C CNN
-F 1 "LED" H 5643 9236 50  0000 C CNN
-F 2 "" H 5650 9400 50  0001 C CNN
-F 3 "~" H 5650 9400 50  0001 C CNN
+F 1 "TO-2013BC-MRE" H 5643 9236 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 9400 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/to-2013bc-mre" H 5650 9400 50  0001 C CNN
 	1    5650 9400
 	1    0    0    -1  
 $EndComp
@@ -2571,9 +2420,6 @@ Wire Wire Line
 	4550 1200 4550 1500
 Wire Wire Line
 	5050 1500 4550 1500
-Connection ~ 4550 1500
-Wire Wire Line
-	4550 1500 4550 1850
 $Comp
 L Device:R R9
 U 1 1 61F9FECA
@@ -2641,9 +2487,9 @@ L Device:LED D11
 U 1 1 62AC3A2F
 P 13950 5500
 F 0 "D11" H 13943 5245 50  0000 C CNN
-F 1 "LED" H 13943 5336 50  0000 C CNN
-F 2 "" H 13950 5500 50  0001 C CNN
-F 3 "~" H 13950 5500 50  0001 C CNN
+F 1 "TO-2013BC-PG" H 13943 5336 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13950 5500 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/to-2013bc-pg" H 13950 5500 50  0001 C CNN
 	1    13950 5500
 	-1   0    0    1   
 $EndComp
@@ -2673,9 +2519,9 @@ L Device:LED D12
 U 1 1 62B1CC40
 P 13950 5900
 F 0 "D12" H 13943 5645 50  0000 C CNN
-F 1 "LED" H 13943 5736 50  0000 C CNN
-F 2 "" H 13950 5900 50  0001 C CNN
-F 3 "~" H 13950 5900 50  0001 C CNN
+F 1 "TO-2013BC-BF" H 13943 5736 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13950 5900 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/to-2013bc-bf" H 13950 5900 50  0001 C CNN
 	1    13950 5900
 	-1   0    0    1   
 $EndComp
@@ -2705,9 +2551,9 @@ L Device:LED D13
 U 1 1 62B72E3E
 P 13950 6300
 F 0 "D13" H 13943 6045 50  0000 C CNN
-F 1 "LED" H 13943 6136 50  0000 C CNN
-F 2 "" H 13950 6300 50  0001 C CNN
-F 3 "~" H 13950 6300 50  0001 C CNN
+F 1 "TO-2013BC-MYF" H 13943 6136 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13950 6300 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/to-2013bc-myf" H 13950 6300 50  0001 C CNN
 	1    13950 6300
 	-1   0    0    1   
 $EndComp
@@ -2737,7 +2583,7 @@ U 1 1 5FFAD7E9
 P 4550 8900
 F 0 "J6" H 4600 9517 50  0000 C CNN
 F 1 "Conn_02x09_Odd_Even" H 4600 9426 50  0000 C CNN
-F 2 "" H 4550 8900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 4550 8900 50  0001 C CNN
 F 3 "~" H 4550 8900 50  0001 C CNN
 	1    4550 8900
 	1    0    0    -1  
@@ -2786,30 +2632,15 @@ U 1 1 60A0A72C
 P 1550 10200
 F 0 "J1" H 1600 10817 50  0000 C CNN
 F 1 "Conn_02x09_Odd_Even" H 1600 10726 50  0000 C CNN
-F 2 "" H 1550 10200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 1550 10200 50  0001 C CNN
 F 3 "~" H 1550 10200 50  0001 C CNN
 	1    1550 10200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP1
-U 1 1 60AA6F10
-P 2550 10950
-F 0 "JP1" V 2596 11018 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 2505 11018 50  0001 L CNN
-F 2 "" H 2550 10950 50  0001 C CNN
-F 3 "~" H 2550 10950 50  0001 C CNN
-	1    2550 10950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2700 10950 2700 10750
 Wire Wire Line
 	2700 10750 3000 10750
-Text GLabel 2400 11150 0    50   UnSpc ~ 0
+Text GLabel 2700 10750 0    50   UnSpc ~ 0
 GND
-Wire Wire Line
-	2400 11150 2550 11150
 Text Label 2300 7400 0    50   ~ 0
 B1
 Text Label 2300 7500 0    50   ~ 0
@@ -3169,7 +3000,7 @@ U 1 1 61D52518
 P 14000 2150
 F 0 "J17" V 13872 2530 50  0000 L CNN
 F 1 "Conn_01x07" V 13963 2530 50  0000 L CNN
-F 2 "" H 14000 2150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 14000 2150 50  0001 C CNN
 F 3 "~" H 14000 2150 50  0001 C CNN
 	1    14000 2150
 	0    1    1    0   
@@ -3180,7 +3011,7 @@ U 1 1 61FE8C76
 P 14000 4350
 F 0 "J18" V 13872 4630 50  0000 L CNN
 F 1 "Conn_01x05" V 13963 4630 50  0000 L CNN
-F 2 "" H 14000 4350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 14000 4350 50  0001 C CNN
 F 3 "~" H 14000 4350 50  0001 C CNN
 	1    14000 4350
 	0    1    1    0   
@@ -3191,8 +3022,8 @@ U 1 1 62232D6A
 P 15150 1500
 F 0 "J20" H 15100 2200 50  0000 L CNN
 F 1 "DB9_Male" H 15000 2100 50  0000 L CNN
-F 2 "" H 15150 1500 50  0001 C CNN
-F 3 " ~" H 15150 1500 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 15150 1500 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/drb-9ma" H 15150 1500 50  0001 C CNN
 	1    15150 1500
 	1    0    0    -1  
 $EndComp
@@ -3202,7 +3033,7 @@ U 1 1 62233C4C
 P 15150 3600
 F 0 "J21" H 15100 4300 50  0000 L CNN
 F 1 "DB9_Female" H 14900 4200 50  0000 L CNN
-F 2 "" H 15150 3600 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 15150 3600 50  0001 C CNN
 F 3 " ~" H 15150 3600 50  0001 C CNN
 	1    15150 3600
 	1    0    0    -1  
@@ -3335,7 +3166,7 @@ U 1 1 6365DE22
 P 13750 2600
 F 0 "J16" H 13830 2592 50  0000 L CNN
 F 1 "Conn_01x06" H 13830 2501 50  0000 L CNN
-F 2 "" H 13750 2600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 13750 2600 50  0001 C CNN
 F 3 "~" H 13750 2600 50  0001 C CNN
 	1    13750 2600
 	1    0    0    -1  
@@ -3358,7 +3189,7 @@ U 1 1 638B6323
 P 10350 4950
 F 0 "J13" H 10430 4942 50  0000 L CNN
 F 1 "Conn_01x04" H 10430 4851 50  0000 L CNN
-F 2 "" H 10350 4950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10350 4950 50  0001 C CNN
 F 3 "~" H 10350 4950 50  0001 C CNN
 	1    10350 4950
 	1    0    0    -1  
@@ -3433,9 +3264,9 @@ L Device:LED D10
 U 1 1 63C54218
 P 13900 7700
 F 0 "D10" H 13893 7445 50  0000 C CNN
-F 1 "LED" H 13893 7536 50  0000 C CNN
-F 2 "" H 13900 7700 50  0001 C CNN
-F 3 "~" H 13900 7700 50  0001 C CNN
+F 1 "TO-2013BC-MRE" H 13893 7536 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13900 7700 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/to-2013bc-mre" H 13900 7700 50  0001 C CNN
 	1    13900 7700
 	1    0    0    -1  
 $EndComp
@@ -3502,7 +3333,7 @@ U 1 1 64145DC0
 P 14600 3900
 F 0 "JP6" H 14600 3800 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 14600 4014 50  0001 C CNN
-F 2 "" H 14600 3900 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 14600 3900 50  0001 C CNN
 F 3 "~" H 14600 3900 50  0001 C CNN
 	1    14600 3900
 	1    0    0    -1  
@@ -3525,6 +3356,35 @@ Wire Notes Line
 	6350 9700 4000 9700
 Wire Notes Line
 	4000 9700 4000 6600
+Connection ~ 5250 1500
+Wire Wire Line
+	5250 1850 5400 1850
+Wire Wire Line
+	5250 1500 5250 1850
+Text GLabel 5750 4050 0    50   UnSpc ~ 0
+GND
+Text GLabel 3400 6150 2    50   UnSpc ~ 0
+OSC32_IN
+Wire Wire Line
+	3250 5850 3300 5850
+Wire Wire Line
+	3250 5950 3550 5950
+Text GLabel 3400 6300 2    50   UnSpc ~ 0
+OSC32_OUT
+Wire Wire Line
+	3250 5750 3550 5750
+Wire Wire Line
+	3400 6300 3250 6300
+Wire Wire Line
+	3250 6300 3250 5950
+Connection ~ 3250 5950
+Wire Wire Line
+	3400 6150 3300 6150
+Wire Wire Line
+	3300 6150 3300 5850
+Connection ~ 3300 5850
+Wire Wire Line
+	3300 5850 3550 5850
 Wire Bus Line
 	1100 9500 1100 10400
 Wire Bus Line
