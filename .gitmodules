@@ -1,3 +1,6 @@
 [submodule "Controller Schematic/lib/kicad"]
 	path = Controller Schematic/lib/kicad
 	url = https://gitlab.com/VictorLamoine/kicad.git
+[submodule "Wheel/KiCad-Lib"]
+	path = Wheel/KiCad-Lib
+	url = https://github.com/SFUSatClub/KiCad-Lib.git

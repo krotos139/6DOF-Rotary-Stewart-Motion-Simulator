@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name KiCad-Lib)(type Legacy)(uri C:/work/repo/6DOF-Rotary-Stewart-Motion-Simulator/Wheel/KiCad-Lib/SFUSat.lib)(options "")(descr ""))
+  (lib (name ESP32_DevKit_V1_DOIT)(type Legacy)(uri "C:/work/repo/6DOF-Rotary-Stewart-Motion-Simulator/Controller Schematic/KiCAD_project/esp32_devkit_v1_doit.lib")(options "")(descr ""))
+)
