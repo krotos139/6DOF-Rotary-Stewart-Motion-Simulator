@@ -1396,10 +1396,6 @@ Text GLabel 10800 6850 2    50   Output ~ 0
 DRIVE_VREF
 Wire Wire Line
 	10700 6850 10800 6850
-Text GLabel 10100 6950 0    50   UnSpc ~ 0
-COM
-Wire Wire Line
-	10100 6950 10200 6950
 $Comp
 L Connector:DB25_Female J15
 U 1 1 606517C2
@@ -1451,8 +1447,6 @@ Text GLabel 12050 7900 0    50   Input ~ 0
 SigOut3
 Text GLabel 12050 8000 0    50   Output ~ 0
 DRIVE_VREF
-Text GLabel 12050 8100 0    50   UnSpc ~ 0
-COM
 Wire Wire Line
 	12050 5700 12150 5700
 Wire Wire Line
@@ -1496,8 +1490,6 @@ Wire Wire Line
 Wire Wire Line
 	12050 8000 12150 8000
 Wire Wire Line
-	12050 8100 12150 8100
-Wire Wire Line
 	10450 1400 10450 1600
 Wire Wire Line
 	10950 1200 10950 1600
@@ -1510,19 +1502,19 @@ Wire Notes Line
 	12700 2300 12700 8300
 Text Notes 12400 2400 0    50   ~ 0
 DRIVE
-Text GLabel 13600 1500 0    50   UnSpc ~ 0
+Text GLabel 13350 1500 0    50   UnSpc ~ 0
 SPI1_CS
-Text GLabel 13600 1700 0    50   UnSpc ~ 0
+Text GLabel 13350 1700 0    50   UnSpc ~ 0
 SPI1_SO
 Text GLabel 13600 1200 0    50   UnSpc ~ 0
 3V
-Text GLabel 13600 1600 0    50   UnSpc ~ 0
+Text GLabel 13350 1600 0    50   UnSpc ~ 0
 3V
 Text GLabel 13600 1400 0    50   UnSpc ~ 0
 SHIFTER_Y
-Text GLabel 13600 1900 0    50   UnSpc ~ 0
+Text GLabel 13350 1900 0    50   UnSpc ~ 0
 SPI1_SCK
-Text GLabel 13600 1800 0    50   UnSpc ~ 0
+Text GLabel 13350 1800 0    50   UnSpc ~ 0
 GND
 $Comp
 L Power_Protection:USBLC6-4SC6 U12
@@ -3423,44 +3415,24 @@ Wire Wire Line
 	13750 3900 14300 3900
 Connection ~ 14300 3900
 Wire Wire Line
-	13600 1900 14100 1900
-Wire Wire Line
-	13600 1800 14300 1800
-Wire Wire Line
-	13600 1700 14000 1700
-Wire Wire Line
-	13600 1600 14200 1600
-Wire Wire Line
-	13600 1500 13900 1500
-Wire Wire Line
 	13600 1400 13700 1400
 Wire Wire Line
 	13600 1300 13800 1300
 Wire Wire Line
 	14300 1950 14300 1800
-Connection ~ 14300 1800
 Wire Wire Line
 	14300 1800 14850 1800
 Wire Wire Line
 	14200 1950 14200 1600
-Connection ~ 14200 1600
 Wire Wire Line
 	14200 1600 14850 1600
 Wire Wire Line
 	14100 1950 14100 1900
-Connection ~ 14100 1900
-Wire Wire Line
-	14100 1900 14850 1900
 Wire Wire Line
 	14000 1950 14000 1700
-Connection ~ 14000 1700
-Wire Wire Line
-	14000 1700 14850 1700
 Wire Wire Line
 	13900 1950 13900 1500
 Connection ~ 13900 1500
-Wire Wire Line
-	13900 1500 14850 1500
 Wire Wire Line
 	13800 1950 13800 1300
 Connection ~ 13800 1300
@@ -3489,6 +3461,115 @@ Wire Wire Line
 	13900 3600 14850 3600
 Wire Wire Line
 	14000 4150 14000 3800
+Connection ~ 14000 3800
+Wire Wire Line
+	14000 3800 14850 3800
+Wire Wire Line
+	4650 4500 4650 4700
+Wire Wire Line
+	14100 1900 14850 1900
+Wire Wire Line
+	14000 1700 14850 1700
+Wire Wire Line
+	13900 1500 14850 1500
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5FFF42DF
+P 13500 1500
+F 0 "JP?" H 13500 1400 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 13500 1614 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13500 1500 50  0001 C CNN
+F 3 "~" H 13500 1500 50  0001 C CNN
+	1    13500 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13650 1500 13900 1500
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5FFF5B9C
+P 13500 1700
+F 0 "JP?" H 13500 1600 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 13500 1814 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13500 1700 50  0001 C CNN
+F 3 "~" H 13500 1700 50  0001 C CNN
+	1    13500 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5FFF60EF
+P 13500 1900
+F 0 "JP?" H 13500 1800 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 13500 2014 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13500 1900 50  0001 C CNN
+F 3 "~" H 13500 1900 50  0001 C CNN
+	1    13500 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13350 1600 14200 1600
+Connection ~ 14200 1600
+Wire Wire Line
+	13650 1700 14000 1700
+Connection ~ 14000 1700
+Wire Wire Line
+	13650 1900 14100 1900
+Connection ~ 14100 1900
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP?
+U 1 1 6013722B
+P 9300 6950
+F 0 "JP?" V 9200 7000 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 9255 7018 50  0001 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 9300 6950 50  0001 C CNN
+F 3 "~" H 9300 6950 50  0001 C CNN
+	1    9300 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6013964F
+P 9000 6600
+F 0 "R?" H 9070 6646 50  0000 L CNN
+F 1 "560" H 9070 6555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8930 6600 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product0/9000079474" H 9000 6600 50  0001 C CNN
+	1    9000 6600
+	1    0    0    -1  
+$EndComp
+Text GLabel 9000 7150 0    50   UnSpc ~ 0
+COM
+$Comp
+L Device:R R?
+U 1 1 601A6AD4
+P 9000 6900
+F 0 "R?" H 9070 6946 50  0000 L CNN
+F 1 "560" H 9070 6855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8930 6900 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product0/9000079474" H 9000 6900 50  0001 C CNN
+	1    9000 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 7150 9000 7050
+Wire Wire Line
+	9000 7150 9300 7150
+Wire Wire Line
+	9300 6750 9000 6750
+Connection ~ 9000 6750
+Text GLabel 9000 6450 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	9450 6950 10150 6950
+Wire Wire Line
+	11450 8100 11450 7050
+Wire Wire Line
+	11450 7050 10150 7050
+Wire Wire Line
+	10150 7050 10150 6950
+Wire Wire Line
+	11450 8100 12150 8100
 Wire Bus Line
 	4450 9500 4450 10400
 Wire Bus Line
@@ -3505,7 +3586,7 @@ Wire Bus Line
 	6100 7500 6100 10500
 Wire Bus Line
 	2650 7500 2650 10500
-Connection ~ 14000 3800
+Connection ~ 10150 6950
 Wire Wire Line
-	14000 3800 14850 3800
+	10150 6950 10200 6950
 $EndSCHEMATC
