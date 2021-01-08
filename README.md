@@ -66,9 +66,9 @@ We redesigned PCB for TDD MMOS. We've added optocouplers and second port extende
 
 <img src="images/TDD_MMOS_WHEEL_PCB_Controller.PNG" width="480">
 
-<img src="images/TDD_MMOS_WHEEL_PCB_Controller_BOTTOM.png" width="480">
+<img src="images/TDD_MMOS_WHEEL_PCB_Controller_TOP.PNG" width="480">
 
-<img src="images/TDD_MMOS_WHEEL_PCB_Controller_TOP.png" width="480">
+<img src="images/TDD_MMOS_WHEEL_PCB_Controller_BOTTOM.png" width="480">
 
 
 ## Platform Test Application
