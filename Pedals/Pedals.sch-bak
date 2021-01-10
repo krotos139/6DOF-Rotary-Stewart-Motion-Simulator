@@ -30,7 +30,7 @@ U 1 1 5FFFA4D2
 P 1300 1050
 F 0 "J6" H 1380 1042 50  0000 L CNN
 F 1 "Conn_01x06" H 1380 951 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1300 1050 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 1300 1050 50  0001 C CNN
 F 3 "~" H 1300 1050 50  0001 C CNN
 	1    1300 1050
 	1    0    0    -1  
@@ -64,7 +64,7 @@ U 1 1 5FFFDC1D
 P 1950 950
 F 0 "J7" H 1868 1267 50  0000 C CNN
 F 1 "Conn_01x04" H 1868 1176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1950 950 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 1950 950 50  0001 C CNN
 F 3 "~" H 1950 950 50  0001 C CNN
 	1    1950 950 
 	-1   0    0    -1  
@@ -146,7 +146,7 @@ U 1 1 60009BA0
 P 3500 1550
 F 0 "J8" H 3580 1592 50  0000 L CNN
 F 1 "Conn_01x15" H 3580 1501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 3500 1550 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 3500 1550 50  0001 C CNN
 F 3 "~" H 3500 1550 50  0001 C CNN
 	1    3500 1550
 	1    0    0    -1  
@@ -157,7 +157,7 @@ U 1 1 6000C481
 P 4300 1550
 F 0 "J9" H 4218 2467 50  0000 C CNN
 F 1 "Conn_01x15" H 4218 2376 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 4300 1550 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 4300 1550 50  0001 C CNN
 F 3 "~" H 4300 1550 50  0001 C CNN
 	1    4300 1550
 	-1   0    0    -1  
@@ -398,14 +398,14 @@ F 3 "~" H 4000 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Large #LOGO?
-U 1 1 600440E4
-P 3300 3650
-F 0 "#LOGO?" H 3300 4150 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Large" H 3300 3250 50  0001 C CNN
-F 2 "" H 3300 3650 50  0001 C CNN
-F 3 "~" H 3300 3650 50  0001 C CNN
-	1    3300 3650
+L Graphic:Logo_Open_Hardware_Large LOGO1
+U 1 1 5FFC0C21
+P 1050 5200
+F 0 "LOGO1" H 1516 5341 50  0000 L CNN
+F 1 "Logo_Open_Hardware_Large" H 1516 5250 50  0000 L CNN
+F 2 "Symbol:OSHW-Logo2_14.6x12mm_Copper" H 1516 5159 50  0000 L CNN
+F 3 "~" H 1050 5200 50  0001 C CNN
+	1    1050 5200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

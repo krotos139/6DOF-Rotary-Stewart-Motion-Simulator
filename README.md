@@ -70,6 +70,13 @@ We redesigned PCB for TDD MMOS. We've added optocouplers and second port extende
 
 <img src="images/TDD_MMOS_WHEEL_PCB_Controller_BOTTOM.png" width="480">
 
+## Pedal's PCB
+
+<img src="images/TDD_MMOS_WHEEL_PCB_Pedals.png" width="480">
+
+<img src="images/TDD_MMOS_WHEEL_PCB_Pedals_TOP.png" width="480">
+
+<img src="images/TDD_MMOS_WHEEL_PCB_Pedals_BOTTOM.png" width="480">
 
 ## Platform Test Application
 .Net Application for testing position limits and speed of platform. Allows for manual setting of each DOF / Axis. As well works with XBOX360 controller through the PC USB wireless adapter.
