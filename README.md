@@ -8,11 +8,7 @@ Project isn't finished yet. I will place all data to this repo.
 
 # Experiments one
 
-We made PCB from Christopher Knauf:
-
-<img src="images/P01117-140336.jpg" width="480">
-
-And we can to control one AC motor driver:
+We made PCB from Christopher Knauf. And we can to control one AC motor driver:
 
 <a align="center" href="https://youtu.be/x41-dcpQG4Y
 " target="_blank"><img align="center" src="http://img.youtube.com/vi/x41-dcpQG4Y/0.jpg"  height="340" width="auto" border="0" /></a>
@@ -46,7 +42,7 @@ With these settings the software package Simtools or any other custom applicatio
 
 We developed our controller board with optocoupler:
 
-<img src="Controller Schematic/KiCAD_project/schematic.png" width="480">
+<img src="images/6DOF_CONTROLLER_PCB_Controller_schematic.PNG" width="480">
 
 We use sensor bord from Christopher Knauf: <a href="https://github.com/knaufinator/6DOF-Rotary-Stewart-Motion-Simulator"><img src="https://github.com/knaufinator/6DOF-Rotary-Stewart-Motion-Simulator/blob/master/Controller%20Schematic/Schematic_Sensor%20array.png"></a>
 
@@ -54,11 +50,13 @@ We use sensor bord from Christopher Knauf: <a href="https://github.com/knaufinat
 
 We have a problem with USB interface. We start to do second PCB:
 
-<img src="Controller Schematic/KiCAD_project/PCB.png" width="480">
+<img src="images/6DOF_CONTROLLER_PCB_Controller.PNG" width="480">
 
-<img src="Controller Schematic/KiCAD_project/PCB1.png" width="480">
+<img src="images/6DOF_CONTROLLER_PCB_Controller_TOP.PNG" width="480">
 
-<img src="Controller Schematic/KiCAD_project/PCB2.png" width="480">
+<img src="images/6DOF_CONTROLLER_PCB_Controller_BOTTOM.PNG" width="480">
+
+<img src="images/P10116-213205.jpg" width="480">
 
 ## TDD MMOS PCB
 

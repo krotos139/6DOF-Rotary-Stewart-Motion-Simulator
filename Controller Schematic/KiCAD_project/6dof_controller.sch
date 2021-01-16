@@ -265,7 +265,7 @@ U 1 1 5FD613D1
 P 13400 7650
 F 0 "D3" V 13400 7850 50  0000 R CNN
 F 1 "BL-LS0805UYC" V 13348 7532 50  0001 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 13400 7650 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13400 7650 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bl-ls0805uyc" H 13400 7650 50  0001 C CNN
 F 4 "https://www.chipdip.ru/product/bl-ls0805uyc" V 13400 7650 50  0001 C CNN "Field4"
 	1    13400 7650
@@ -417,7 +417,7 @@ U 1 1 60BFD8D0
 P 7600 7550
 F 0 "*D1" V 7500 7700 50  0000 R CNN
 F 1 "BL-LS0805UYC" V 7548 7432 50  0001 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 7600 7550 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 7550 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bl-ls0805uyc" H 7600 7550 50  0001 C CNN
 F 4 "https://www.chipdip.ru/product/bl-ls0805uyc" V 7600 7550 50  0001 C CNN "Field4"
 	1    7600 7550
@@ -536,7 +536,7 @@ U 1 1 60297373
 P 10500 7800
 F 0 "D2" V 10500 7750 50  0000 R CNN
 F 1 "BL-LS0805UYC" V 10448 7682 50  0001 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 10500 7800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10500 7800 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bl-ls0805uyc" H 10500 7800 50  0001 C CNN
 F 4 "https://www.chipdip.ru/product/bl-ls0805uyc" V 10500 7800 50  0001 C CNN "Field4"
 	1    10500 7800
@@ -547,7 +547,7 @@ L Device:R R1
 U 1 1 6029735C
 P 10500 7450
 F 0 "R1" H 10570 7496 50  0000 L CNN
-F 1 "330" H 10570 7405 50  0000 L CNN
+F 1 "1K" H 10570 7405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 10430 7450 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079474" H 10500 7450 50  0001 C CNN
 	1    10500 7450
@@ -871,7 +871,7 @@ U 1 1 5FCDF41E
 P 10300 1150
 F 0 "D5" V 10339 1032 50  0000 R CNN
 F 1 "BL-LS0805UYC" V 10248 1032 50  0001 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 10300 1150 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10300 1150 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bl-ls0805uyc" H 10300 1150 50  0001 C CNN
 F 4 "https://www.chipdip.ru/product/bl-ls0805uyc" V 10300 1150 50  0001 C CNN "Field4"
 	1    10300 1150
@@ -1370,7 +1370,7 @@ U 1 1 5FC785F5
 P 8450 1150
 F 0 "D4" V 8489 1032 50  0000 R CNN
 F 1 "BL-LS0805UYC" V 8398 1032 50  0001 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 8450 1150 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8450 1150 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bl-ls0805uyc" H 8450 1150 50  0001 C CNN
 F 4 "https://www.chipdip.ru/product/bl-ls0805uyc" V 8450 1150 50  0001 C CNN "Field4"
 	1    8450 1150
@@ -2135,7 +2135,7 @@ U 1 1 5FF598FA
 P 13350 6250
 F 0 "*D4" V 13350 6200 50  0000 R CNN
 F 1 "BL-LS0805UYC" V 13298 6132 50  0001 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 13350 6250 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13350 6250 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/bl-ls0805uyc" H 13350 6250 50  0001 C CNN
 F 4 "https://www.chipdip.ru/product/bl-ls0805uyc" V 13350 6250 50  0001 C CNN "Field4"
 	1    13350 6250
@@ -2367,6 +2367,8 @@ Wire Notes Line
 	11600 6800 11600 5200
 Wire Notes Line
 	11600 5200 10200 5200
+Text Notes 15500 9750 0    50   ~ 0
+Case: G748A
 Wire Bus Line
 	7800 1100 7800 2050
 Wire Bus Line
@@ -2379,6 +2381,21 @@ Wire Bus Line
 	6700 3400 6700 5550
 Wire Bus Line
 	7250 650  7250 3400
-Text Notes 15500 9750 0    50   ~ 0
-Case: G748A
+Text Notes 11850 6750 0    50   ~ 0
+NOT INSTALL (for future use)
+Text Notes 7950 7950 0    50   ~ 0
+NOT INSTALL (for future use)
+Text Notes 7750 4800 0    50   ~ 0
+D4, D5 NOT INSTALL (for future use)
+$Comp
+L Graphic:Logo_Open_Hardware_Large LOGO1
+U 1 1 60181939
+P 9750 10500
+F 0 "LOGO1" H 9750 11000 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 9750 10100 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_14.6x12mm_Copper" H 10216 10550 50  0000 L CNN
+F 3 "~" H 9750 10500 50  0001 C CNN
+	1    9750 10500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
