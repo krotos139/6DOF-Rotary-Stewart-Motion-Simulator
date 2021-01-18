@@ -399,10 +399,10 @@ Wire Notes Line
 Text Notes 4800 2250 0    50   ~ 0
 not installed
 $Comp
-L Jumper:Jumper_3_Open JP1
+L Jumper:Jumper_3_Open JP2
 U 1 1 5FF8AC7A
 P 4750 2800
-F 0 "JP1" H 4750 3024 50  0000 C CNN
+F 0 "JP2" H 4750 3024 50  0000 C CNN
 F 1 "Jumper_3_Open" H 4750 2933 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4750 2800 50  0001 C CNN
 F 3 "~" H 4750 2800 50  0001 C CNN
@@ -613,10 +613,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 2550 3350 2550
 $Comp
-L Jumper:Jumper_2_Open JP2
+L Jumper:Jumper_2_Open JP3
 U 1 1 60037886
 P 5800 4500
-F 0 "JP2" H 5800 4735 50  0000 C CNN
+F 0 "JP3" H 5800 4735 50  0000 C CNN
 F 1 "Jumper_2_Open" H 5800 4644 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5800 4500 50  0001 C CNN
 F 3 "~" H 5800 4500 50  0001 C CNN
@@ -966,10 +966,10 @@ Wire Wire Line
 Wire Wire Line
 	7450 5750 7450 5700
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP3
+L Jumper:SolderJumper_3_Bridged12 JP5
 U 1 1 602F5B06
 P 6950 5400
-F 0 "JP3" V 6904 5468 50  0000 L CNN
+F 0 "JP5" V 6904 5468 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" V 6995 5468 50  0001 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6950 5400 50  0001 C CNN
 F 3 "~" H 6950 5400 50  0001 C CNN
@@ -1043,10 +1043,10 @@ Wire Wire Line
 Wire Wire Line
 	7450 6500 7450 6450
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP4
+L Jumper:SolderJumper_3_Bridged12 JP6
 U 1 1 6031E70A
 P 6950 6150
-F 0 "JP4" V 6996 6218 50  0000 L CNN
+F 0 "JP6" V 6996 6218 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" V 6905 6218 50  0001 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6950 6150 50  0001 C CNN
 F 3 "~" H 6950 6150 50  0001 C CNN
@@ -2090,8 +2090,6 @@ F 3 "~" H 1450 10200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2600 10750 2900 10750
-Text GLabel 2600 10750 0    50   UnSpc ~ 0
-GND
 Text Label 2200 7400 0    50   ~ 0
 B1
 Text Label 2200 7500 0    50   ~ 0
@@ -2666,10 +2664,10 @@ FORCE_LED_G
 Wire Wire Line
 	13400 7100 13450 7100
 $Comp
-L Jumper:SolderJumper_2_Open JP10
+L Jumper:SolderJumper_2_Open JP12
 U 1 1 64145DC0
 P 13600 3900
-F 0 "JP10" H 13600 3800 50  0000 C CNN
+F 0 "JP12" H 13600 3800 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 13600 4014 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13600 3900 50  0001 C CNN
 F 3 "~" H 13600 3900 50  0001 C CNN
@@ -2741,10 +2739,10 @@ Connection ~ 14200 3300
 Wire Wire Line
 	14200 3300 14850 3300
 $Comp
-L Jumper:SolderJumper_2_Bridged JP6
+L Jumper:SolderJumper_2_Bridged JP8
 U 1 1 60359245
 P 9450 3300
-F 0 "JP6" H 9450 3505 50  0000 C CNN
+F 0 "JP8" H 9450 3505 50  0000 C CNN
 F 1 "SolderJumper_2_Bridged" H 9450 3414 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 9450 3300 50  0001 C CNN
 F 3 "~" H 9450 3300 50  0001 C CNN
@@ -2984,8 +2982,6 @@ F 3 "~" H 4900 10200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6050 10750 6350 10750
-Text GLabel 6050 10750 0    50   UnSpc ~ 0
-GND
 Text Label 5650 7400 0    50   ~ 0
 B17
 Text Label 5650 7500 0    50   ~ 0
@@ -3459,10 +3455,10 @@ Wire Wire Line
 Wire Wire Line
 	13900 1750 14850 1750
 $Comp
-L Jumper:SolderJumper_2_Open JP8
+L Jumper:SolderJumper_2_Open JP10
 U 1 1 5FFF5B9C
 P 13500 1050
-F 0 "JP8" H 13500 950 50  0000 C CNN
+F 0 "JP10" H 13500 950 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 13500 1164 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13500 1050 50  0001 C CNN
 F 3 "~" H 13500 1050 50  0001 C CNN
@@ -3470,10 +3466,10 @@ F 3 "~" H 13500 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP9
+L Jumper:SolderJumper_2_Open JP11
 U 1 1 5FFF60EF
 P 13500 1250
-F 0 "JP9" H 13500 1150 50  0000 C CNN
+F 0 "JP11" H 13500 1150 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 13500 1364 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13500 1250 50  0001 C CNN
 F 3 "~" H 13500 1250 50  0001 C CNN
@@ -3481,10 +3477,10 @@ F 3 "~" H 13500 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP5
+L Jumper:SolderJumper_3_Bridged12 JP7
 U 1 1 6013722B
 P 9300 6950
-F 0 "JP5" V 9200 7000 50  0000 L CNN
+F 0 "JP7" V 9200 7000 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" V 9255 7018 50  0001 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 9300 6950 50  0001 C CNN
 F 3 "~" H 9300 6950 50  0001 C CNN
@@ -3542,10 +3538,10 @@ SPI1_SO_PROT
 Text GLabel 13350 850  0    50   UnSpc ~ 0
 SPI1_CS
 $Comp
-L Jumper:SolderJumper_2_Open JP7
+L Jumper:SolderJumper_2_Open JP9
 U 1 1 6057F306
 P 13500 850
-F 0 "JP7" H 13500 750 50  0000 C CNN
+F 0 "JP9" H 13500 750 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 13500 964 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13500 850 50  0001 C CNN
 F 3 "~" H 13500 850 50  0001 C CNN
@@ -3652,10 +3648,10 @@ F 4 "JRB2A010M02000500110000B" H 9700 3700 50  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP11
+L Jumper:SolderJumper_2_Open JP13
 U 1 1 600C876D
 P 13600 7400
-F 0 "JP11" H 13600 7300 50  0000 C CNN
+F 0 "JP13" H 13600 7300 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 13600 7514 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13600 7400 50  0001 C CNN
 F 3 "~" H 13600 7400 50  0001 C CNN
@@ -3665,10 +3661,10 @@ $EndComp
 Text GLabel 13450 7400 0    50   UnSpc ~ 0
 3V
 $Comp
-L Jumper:SolderJumper_2_Open JP13
+L Jumper:SolderJumper_2_Open JP15
 U 1 1 600CA850
 P 14700 1350
-F 0 "JP13" H 14700 1450 50  0000 C CNN
+F 0 "JP15" H 14700 1450 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 14700 1464 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 14700 1350 50  0001 C CNN
 F 3 "~" H 14700 1350 50  0001 C CNN
@@ -3678,10 +3674,10 @@ $EndComp
 Text GLabel 14550 1350 0    50   UnSpc ~ 0
 PEDAL_CLUCH
 $Comp
-L Jumper:SolderJumper_2_Open JP12
+L Jumper:SolderJumper_2_Open JP14
 U 1 1 6019891C
 P 14500 2650
-F 0 "JP12" H 14500 2550 50  0000 C CNN
+F 0 "JP14" H 14500 2550 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 14500 2764 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 14500 2650 50  0001 C CNN
 F 3 "~" H 14500 2650 50  0001 C CNN
@@ -3703,6 +3699,33 @@ Wire Wire Line
 	5550 9250 5650 9250
 Wire Wire Line
 	5650 9250 5650 9000
+Connection ~ 5650 9000
+$Comp
+L Jumper:SolderJumper_2_Open JP4
+U 1 1 600CDBB9
+P 5900 10750
+F 0 "JP4" H 5900 10650 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 5900 10864 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5900 10750 50  0001 C CNN
+F 3 "~" H 5900 10750 50  0001 C CNN
+	1    5900 10750
+	1    0    0    -1  
+$EndComp
+Text GLabel 5750 10750 0    50   UnSpc ~ 0
+3V
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 600D0079
+P 2450 10750
+F 0 "JP1" H 2450 10650 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 2450 10864 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2450 10750 50  0001 C CNN
+F 3 "~" H 2450 10750 50  0001 C CNN
+	1    2450 10750
+	1    0    0    -1  
+$EndComp
+Text GLabel 2300 10750 0    50   UnSpc ~ 0
+3V
 Wire Bus Line
 	4450 9500 4450 10400
 Wire Bus Line
@@ -3719,5 +3742,4 @@ Wire Bus Line
 	6100 7500 6100 10500
 Wire Bus Line
 	2650 7500 2650 10500
-Connection ~ 5650 9000
 $EndSCHEMATC
