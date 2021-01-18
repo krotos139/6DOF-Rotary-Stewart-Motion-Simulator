@@ -810,7 +810,7 @@ L Device:R R18
 U 1 1 60249B08
 P 8450 3550
 F 0 "R18" H 8300 3600 50  0000 L CNN
-F 1 "1K" H 8300 3500 50  0000 L CNN
+F 1 "2K" H 8300 3500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8380 3550 50  0001 C CNN
 F 3 "~" H 8450 3550 50  0001 C CNN
 	1    8450 3550
@@ -3578,10 +3578,10 @@ SPI1_SO_PROT
 Text GLabel 13650 1250 2    50   UnSpc ~ 0
 SPI1_SCK_PROT
 $Comp
-L Connector_Generic:Conn_02x15_Odd_Even J23
+L Connector_Generic:Conn_02x15_Odd_Even J22
 U 1 1 603B8041
 P 15200 8600
-F 0 "J23" H 15250 9517 50  0000 C CNN
+F 0 "J22" H 15250 9517 50  0000 C CNN
 F 1 "Conn_02x15_Odd_Even" H 15250 9426 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical" H 15200 8600 50  0001 C CNN
 F 3 "~" H 15200 8600 50  0001 C CNN
@@ -3669,4 +3669,30 @@ Wire Bus Line
 	6100 7500 6100 10500
 Wire Bus Line
 	2650 7500 2650 10500
+$Comp
+L Jumper:SolderJumper_2_Open JP11
+U 1 1 600C876D
+P 13600 7400
+F 0 "JP11" H 13600 7300 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 13600 7514 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13600 7400 50  0001 C CNN
+F 3 "~" H 13600 7400 50  0001 C CNN
+	1    13600 7400
+	1    0    0    -1  
+$EndComp
+Text GLabel 13450 7400 0    50   UnSpc ~ 0
+3V
+$Comp
+L Jumper:SolderJumper_2_Open JP12
+U 1 1 600CA850
+P 14700 1350
+F 0 "JP12" H 14700 1450 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 14700 1464 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 14700 1350 50  0001 C CNN
+F 3 "~" H 14700 1350 50  0001 C CNN
+	1    14700 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 14550 1350 0    50   UnSpc ~ 0
+PEDAL_CLUCH
 $EndSCHEMATC
