@@ -1166,7 +1166,7 @@ L Device:R R27
 U 1 1 6029735C
 P 10200 1050
 F 0 "R27" H 10270 1096 50  0000 L CNN
-F 1 "560" H 10270 1005 50  0000 L CNN
+F 1 "1k" H 10270 1005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 10130 1050 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000079474" H 10200 1050 50  0001 C CNN
 	1    10200 1050
@@ -1238,45 +1238,45 @@ PWR
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 60EF3A16
-P 14000 9350
-F 0 "H4" H 14100 9399 50  0001 L CNN
-F 1 "MountingHole_Pad" H 14100 9308 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 14000 9350 50  0001 C CNN
-F 3 "~" H 14000 9350 50  0001 C CNN
-	1    14000 9350
+P 15000 9750
+F 0 "H4" H 15100 9799 50  0001 L CNN
+F 1 "MountingHole_Pad" H 15100 9708 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 15000 9750 50  0001 C CNN
+F 3 "~" H 15000 9750 50  0001 C CNN
+	1    15000 9750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 60EF7343
-P 13850 9350
-F 0 "H3" H 13950 9399 50  0001 L CNN
-F 1 "MountingHole_Pad" H 13950 9308 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 13850 9350 50  0001 C CNN
-F 3 "~" H 13850 9350 50  0001 C CNN
-	1    13850 9350
+P 14850 9750
+F 0 "H3" H 14950 9799 50  0001 L CNN
+F 1 "MountingHole_Pad" H 14950 9708 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 14850 9750 50  0001 C CNN
+F 3 "~" H 14850 9750 50  0001 C CNN
+	1    14850 9750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 60EF760B
-P 13700 9350
-F 0 "H2" H 13800 9399 50  0001 L CNN
-F 1 "MountingHole_Pad" H 13800 9308 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 13700 9350 50  0001 C CNN
-F 3 "~" H 13700 9350 50  0001 C CNN
-	1    13700 9350
+P 14700 9750
+F 0 "H2" H 14800 9799 50  0001 L CNN
+F 1 "MountingHole_Pad" H 14800 9708 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 14700 9750 50  0001 C CNN
+F 3 "~" H 14700 9750 50  0001 C CNN
+	1    14700 9750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 60EF780C
-P 13550 9350
-F 0 "H1" H 13650 9399 50  0001 L CNN
-F 1 "MountingHole_Pad" H 13650 9308 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 13550 9350 50  0001 C CNN
-F 3 "~" H 13550 9350 50  0001 C CNN
-	1    13550 9350
+P 14550 9750
+F 0 "H1" H 14650 9799 50  0001 L CNN
+F 1 "MountingHole_Pad" H 14650 9708 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 14550 9750 50  0001 C CNN
+F 3 "~" H 14550 9750 50  0001 C CNN
+	1    14550 9750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1605,17 +1605,6 @@ F 2 "Resistor_SMD:R_0805_2012Metric" V 9380 3550 50  0001 C CNN
 F 3 "~" H 9450 3550 50  0001 C CNN
 	1    9450 3550
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C20
-U 1 1 600085E0
-P 9700 3700
-F 0 "C20" H 9815 3746 50  0000 L CNN
-F 1 "1uF" H 9815 3655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9738 3550 50  0001 C CNN
-F 3 "https://www.chipdip.ru/product/grm21br71c105k" H 9700 3700 50  0001 C CNN
-	1    9700 3700
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9600 3550 9700 3550
@@ -2784,12 +2773,12 @@ Connection ~ 8550 3350
 $Comp
 L Mechanical:Housing N1
 U 1 1 60618C70
-P 14600 9200
-F 0 "N1" H 14753 9234 50  0000 L CNN
-F 1 "G313" H 14753 9143 50  0000 L CNN
-F 2 "cases:CASE_G313" H 14650 9250 50  0001 C CNN
-F 3 "~" H 14650 9250 50  0001 C CNN
-	1    14600 9200
+P 15600 9600
+F 0 "N1" H 15753 9634 50  0000 L CNN
+F 1 "G313" H 15753 9543 50  0000 L CNN
+F 2 "cases:CASE_G313" H 15650 9650 50  0001 C CNN
+F 3 "~" H 15650 9650 50  0001 C CNN
+	1    15600 9600
 	1    0    0    -1  
 $EndComp
 Text GLabel 4250 7700 0    50   Input ~ 0
@@ -3581,6 +3570,89 @@ Wire Wire Line
 Connection ~ 14300 2050
 Wire Wire Line
 	13600 1750 13900 1750
+Connection ~ 13900 1750
+Text GLabel 13650 850  2    50   UnSpc ~ 0
+SPI1_CS_PROT
+Text GLabel 13650 1050 2    50   UnSpc ~ 0
+SPI1_SO_PROT
+Text GLabel 13650 1250 2    50   UnSpc ~ 0
+SPI1_SCK_PROT
+$Comp
+L Connector_Generic:Conn_02x15_Odd_Even J23
+U 1 1 603B8041
+P 15200 8600
+F 0 "J23" H 15250 9517 50  0000 C CNN
+F 1 "Conn_02x15_Odd_Even" H 15250 9426 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical" H 15200 8600 50  0001 C CNN
+F 3 "~" H 15200 8600 50  0001 C CNN
+	1    15200 8600
+	1    0    0    -1  
+$EndComp
+Text GLabel 15000 7900 0    50   Input ~ 0
+GND
+Text GLabel 15500 7900 2    50   Input ~ 0
+GND
+Text GLabel 15000 8000 0    50   Input ~ 0
+3V
+Text GLabel 15500 8000 2    50   Input ~ 0
+3V
+Text GLabel 15000 8100 0    50   Input ~ 0
+GND
+Text GLabel 15000 8200 0    50   UnSpc ~ 0
+SHIFTER_Y
+Text GLabel 15000 8400 0    50   Output ~ 0
+ENC_B
+Text GLabel 15000 8600 0    50   UnSpc ~ 0
+SCK
+Text GLabel 15000 8700 0    50   UnSpc ~ 0
+SI
+Text GLabel 15000 8900 0    50   UnSpc ~ 0
+PEDAL_BREAK
+Text GLabel 15000 9000 0    50   Input ~ 0
+GND
+Text GLabel 15000 9200 0    50   Output ~ 0
+DRV_PWM
+Text GLabel 15000 9300 0    50   Output ~ 0
+DRV_DIR
+Text GLabel 15500 8100 2    50   Input ~ 0
+RESET
+Text GLabel 15500 8300 2    50   UnSpc ~ 0
+SHIFTER_X
+Text GLabel 15500 8400 2    50   Output ~ 0
+ENC_A
+Text GLabel 15500 8500 2    50   Output ~ 0
+ENC_I
+Text GLabel 15500 8600 2    50   UnSpc ~ 0
+CS
+Text GLabel 15500 8700 2    50   UnSpc ~ 0
+SO
+Text GLabel 15500 8800 2    50   UnSpc ~ 0
+PEDAL_CLUCH
+Text GLabel 15500 8900 2    50   UnSpc ~ 0
+PEDAL_GAS
+$Comp
+L Graphic:Logo_Open_Hardware_Large LOGO1
+U 1 1 6057E655
+P 13650 9300
+F 0 "LOGO1" H 13650 9800 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 13650 8900 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_14.6x12mm_SilkScreen" H 13650 9300 50  0001 C CNN
+F 3 "~" H 13650 9300 50  0001 C CNN
+	1    13650 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C20
+U 1 1 600C4636
+P 9700 3700
+F 0 "C20" H 9818 3746 50  0000 L CNN
+F 1 "1uF" H 9818 3655 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 9738 3550 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product0/9000565812" H 9700 3700 50  0001 C CNN
+F 4 "JRB2A010M02000500110000B" H 9700 3700 50  0001 C CNN "PN"
+	1    9700 3700
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	4450 9500 4450 10400
 Wire Bus Line
@@ -3597,11 +3669,4 @@ Wire Bus Line
 	6100 7500 6100 10500
 Wire Bus Line
 	2650 7500 2650 10500
-Connection ~ 13900 1750
-Text GLabel 13650 850  2    50   UnSpc ~ 0
-SPI1_CS_PROT
-Text GLabel 13650 1050 2    50   UnSpc ~ 0
-SPI1_SO_PROT
-Text GLabel 13650 1250 2    50   UnSpc ~ 0
-SPI1_SCK_PROT
 $EndSCHEMATC
