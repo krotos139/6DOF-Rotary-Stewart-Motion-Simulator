@@ -11,8 +11,8 @@ MCP23S17 outputBank( &hspi, 15, 0 );
 
 
 //mcp1
-const int stepPins[] = {0,1,2,3,4,5};   
-const int dirPins[] = {6,7,8,9,10,11};
+const int stepPins[] = {8,9,10,11,12,13};   
+const int dirPins[] = {14,15,0,1,2,3};
 
 
 void setup() {  

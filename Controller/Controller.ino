@@ -27,7 +27,7 @@ std::vector<LowPassFilter> lpfVec;
 //#define DEBUG_MOTORS 1
 
 //when bench testing the esp32, and have no estop connected to PCB, uncomment to allow system to activate motors anyway.
-//#define DEBUG_NO_ESTOP 1
+#define DEBUG_NO_ESTOP 1
 
 //for saving of filter parameters
 Preferences preferences;
@@ -43,8 +43,8 @@ uint32_t value = 0;
 Bounce debouncedEStop = Bounce(); 
 
 //pin number for step and direction pins on the MCP23S17
-const int stepPins[] = {0,1,2,3,4,5};   
-const int dirPins[] = {6,7,8,9,10,11};
+const int stepPins[] = {8,9,10,11,12,13};   
+const int dirPins[] = {14,15,0,1,2,3};
 
 //Lock to protect the Motor position array
 SemaphoreHandle_t xMutex;
@@ -57,7 +57,6 @@ TimerHandle_t wtmr;
 //multiplexers for communicating with all 6 servo controllers. 
 SPIClass hspi( HSPI );
 MCP23S17 outputBank( &hspi, 15, 0 );
-MCP23S17 inputBank( &hspi, 15, 1 );
 
 //soft estop,  this will prevent changes of position from pc to be applied.
 //you should have a power kill near by as well,
@@ -408,7 +407,7 @@ void setup(){
   //check if we already do have the estop depressed, so we do not take in data when we should not.
   //uncomment  debugnoestop during bench debugging 
   #ifdef DEBUG_NO_ESTOP 
-    isPausedEStop = !debouncedEStop.read();
+    isPausedEStop = false;//!debouncedEStop.read();
   #endif
   Serial.print("init Estop check:");
   Serial.println(isPausedEStop);
@@ -439,7 +438,6 @@ void setup(){
                     &GPIOLoopTask,      /* Task handle to keep track of created task */
                     1);          /* pin task to core 1 */
    
-  inputBank.begin();
   outputBank.begin();
 
    //setup the outputs for the AC servo controllers
