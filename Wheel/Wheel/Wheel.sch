@@ -195,10 +195,10 @@ F 3 "https://www.chipdip.ru/product/grm21br71h104k" H 8150 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C17
+L Device:C C18
 U 1 1 5FF46F75
 P 8500 1000
-F 0 "C17" H 8615 1046 50  0000 L CNN
+F 0 "C18" H 8615 1046 50  0000 L CNN
 F 1 "10uF" H 8615 955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8538 850 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/grm21br61c106ke15l" H 8500 1000 50  0001 C CNN
@@ -399,10 +399,10 @@ Wire Notes Line
 Text Notes 4800 2250 0    50   ~ 0
 not installed
 $Comp
-L Jumper:Jumper_3_Open JP1
+L Jumper:Jumper_3_Open JP2
 U 1 1 5FF8AC7A
 P 4750 2800
-F 0 "JP1" H 4750 3024 50  0000 C CNN
+F 0 "JP2" H 4750 3024 50  0000 C CNN
 F 1 "Jumper_3_Open" H 4750 2933 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4750 2800 50  0001 C CNN
 F 3 "~" H 4750 2800 50  0001 C CNN
@@ -613,10 +613,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 2550 3350 2550
 $Comp
-L Jumper:Jumper_2_Open JP2
+L Jumper:Jumper_2_Open JP4
 U 1 1 60037886
 P 5800 4500
-F 0 "JP2" H 5800 4735 50  0000 C CNN
+F 0 "JP4" H 5800 4735 50  0000 C CNN
 F 1 "Jumper_2_Open" H 5800 4644 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5800 4500 50  0001 C CNN
 F 3 "~" H 5800 4500 50  0001 C CNN
@@ -966,10 +966,10 @@ Wire Wire Line
 Wire Wire Line
 	7450 5750 7450 5700
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP3
+L Jumper:SolderJumper_3_Bridged12 JP5
 U 1 1 602F5B06
 P 6950 5400
-F 0 "JP3" V 6904 5468 50  0000 L CNN
+F 0 "JP5" V 6904 5468 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" V 6995 5468 50  0001 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6950 5400 50  0001 C CNN
 F 3 "~" H 6950 5400 50  0001 C CNN
@@ -1043,10 +1043,10 @@ Wire Wire Line
 Wire Wire Line
 	7450 6500 7450 6450
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP4
+L Jumper:SolderJumper_3_Bridged12 JP6
 U 1 1 6031E70A
 P 6950 6150
-F 0 "JP4" V 6996 6218 50  0000 L CNN
+F 0 "JP6" V 6996 6218 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" V 6905 6218 50  0001 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6950 6150 50  0001 C CNN
 F 3 "~" H 6950 6150 50  0001 C CNN
@@ -1122,10 +1122,10 @@ F 3 "https://www.chipdip.ru/product0/8001786864" H 10000 1250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP C25
+L Device:CP C26
 U 1 1 5FC6D0C8
 P 10450 1250
-F 0 "C25" H 10568 1296 50  0000 L CNN
+F 0 "C26" H 10568 1296 50  0000 L CNN
 F 1 "1uF, 50V" H 10568 1205 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_4x5.7" H 10488 1100 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000565712" H 10450 1250 50  0001 C CNN
@@ -1315,10 +1315,10 @@ Wire Notes Line
 Wire Notes Line
 	12700 1800 9000 1800
 $Comp
-L Device:C C27
+L Device:C C28
 U 1 1 60067AD9
 P 11250 1050
-F 0 "C27" H 11300 1150 50  0000 L CNN
+F 0 "C28" H 11300 1150 50  0000 L CNN
 F 1 "0.1uF 50V" H 11365 1005 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 11288 900 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/grm219f51h104z" H 11250 1050 50  0001 C CNN
@@ -1332,10 +1332,10 @@ Connection ~ 11250 1200
 Wire Wire Line
 	11250 1200 11450 1200
 $Comp
-L Device:C C28
+L Device:C C29
 U 1 1 60068086
 P 11450 1050
-F 0 "C28" H 11500 1150 50  0000 L CNN
+F 0 "C29" H 11500 1150 50  0000 L CNN
 F 1 "0.1uF 50V" H 11565 1005 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 11488 900 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/grm219f51h104z" H 11450 1050 50  0001 C CNN
@@ -1540,10 +1540,10 @@ PEDALS
 Text GLabel 10850 7150 2    50   UnSpc ~ 0
 GND
 $Comp
-L Device:C C26
+L Device:C C27
 U 1 1 6145CACB
 P 10700 7000
-F 0 "C26" H 10815 7046 50  0000 L CNN
+F 0 "C27" H 10815 7046 50  0000 L CNN
 F 1 "104" H 10815 6955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 10738 6850 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/grm21br71h104k" H 10700 7000 50  0001 C CNN
@@ -2086,8 +2086,6 @@ F 3 "~" H 1450 10200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2600 10750 2900 10750
-Text GLabel 2600 10750 0    50   UnSpc ~ 0
-GND
 Text Label 2200 7400 0    50   ~ 0
 B1
 Text Label 2200 7500 0    50   ~ 0
@@ -2420,10 +2418,10 @@ Wire Wire Line
 Text GLabel 9050 7150 2    50   UnSpc ~ 0
 GND
 $Comp
-L Device:C C18
+L Device:C C19
 U 1 1 61B74634
 P 8900 7000
-F 0 "C18" H 9015 7046 50  0000 L CNN
+F 0 "C19" H 9015 7046 50  0000 L CNN
 F 1 "104" H 9015 6955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8938 6850 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/grm21br71h104k" H 8900 7000 50  0001 C CNN
@@ -2543,10 +2541,10 @@ Wire Wire Line
 Wire Wire Line
 	9100 3550 9300 3550
 $Comp
-L Device:C C22
+L Device:C C23
 U 1 1 601D67D1
 P 9100 3700
-F 0 "C22" H 9215 3746 50  0000 L CNN
+F 0 "C23" H 9215 3746 50  0000 L CNN
 F 1 "100nF" H 9215 3655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9138 3550 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/grm21br71h104k" H 9100 3700 50  0001 C CNN
@@ -2662,10 +2660,10 @@ FORCE_LED_G
 Wire Wire Line
 	13400 7100 13450 7100
 $Comp
-L Jumper:SolderJumper_2_Open JP10
+L Jumper:SolderJumper_2_Open JP12
 U 1 1 64145DC0
 P 13600 3900
-F 0 "JP10" H 13600 3800 50  0000 C CNN
+F 0 "JP12" H 13600 3800 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 13600 4014 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13600 3900 50  0001 C CNN
 F 3 "~" H 13600 3900 50  0001 C CNN
@@ -2737,10 +2735,10 @@ Connection ~ 14200 3300
 Wire Wire Line
 	14200 3300 14850 3300
 $Comp
-L Jumper:SolderJumper_2_Bridged JP5
+L Jumper:SolderJumper_2_Bridged JP7
 U 1 1 60359245
 P 9450 3300
-F 0 "JP5" H 9450 3505 50  0000 C CNN
+F 0 "JP7" H 9450 3505 50  0000 C CNN
 F 1 "SolderJumper_2_Bridged" H 9450 3414 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 9450 3300 50  0001 C CNN
 F 3 "~" H 9450 3300 50  0001 C CNN
@@ -2980,8 +2978,6 @@ F 3 "~" H 4900 10200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6050 10750 6350 10750
-Text GLabel 6050 10750 0    50   UnSpc ~ 0
-GND
 Text Label 5650 7400 0    50   ~ 0
 B17
 Text Label 5650 7500 0    50   ~ 0
@@ -3441,10 +3437,10 @@ Wire Wire Line
 Wire Wire Line
 	13900 1750 14850 1750
 $Comp
-L Jumper:SolderJumper_2_Open JP8
+L Jumper:SolderJumper_2_Open JP10
 U 1 1 5FFF5B9C
 P 13500 1050
-F 0 "JP8" H 13500 950 50  0000 C CNN
+F 0 "JP10" H 13500 950 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 13500 1164 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13500 1050 50  0001 C CNN
 F 3 "~" H 13500 1050 50  0001 C CNN
@@ -3452,10 +3448,10 @@ F 3 "~" H 13500 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP9
+L Jumper:SolderJumper_2_Open JP11
 U 1 1 5FFF60EF
 P 13500 1250
-F 0 "JP9" H 13500 1150 50  0000 C CNN
+F 0 "JP11" H 13500 1150 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 13500 1364 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13500 1250 50  0001 C CNN
 F 3 "~" H 13500 1250 50  0001 C CNN
@@ -3463,10 +3459,10 @@ F 3 "~" H 13500 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP6
+L Jumper:SolderJumper_3_Bridged12 JP8
 U 1 1 6013722B
 P 9900 5400
-F 0 "JP6" V 9800 5450 50  0000 L CNN
+F 0 "JP8" V 9800 5450 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" V 9855 5468 50  0001 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 9900 5400 50  0001 C CNN
 F 3 "~" H 9900 5400 50  0001 C CNN
@@ -3517,10 +3513,10 @@ SPI1_SO_PROT
 Text GLabel 13350 850  0    50   UnSpc ~ 0
 SPI1_CS
 $Comp
-L Jumper:SolderJumper_2_Open JP7
+L Jumper:SolderJumper_2_Open JP9
 U 1 1 6057F306
 P 13500 850
-F 0 "JP7" H 13500 750 50  0000 C CNN
+F 0 "JP9" H 13500 750 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 13500 964 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13500 850 50  0001 C CNN
 F 3 "~" H 13500 850 50  0001 C CNN
@@ -3615,10 +3611,10 @@ F 3 "~" H 13500 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C23
+L Device:CP C24
 U 1 1 600C4636
 P 9700 3700
-F 0 "C23" H 9818 3746 50  0000 L CNN
+F 0 "C24" H 9818 3746 50  0000 L CNN
 F 1 "1uF" H 9818 3655 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 9738 3550 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product0/9000565812" H 9700 3700 50  0001 C CNN
@@ -3627,10 +3623,10 @@ F 4 "JRB2A010M02000500110000B" H 9700 3700 50  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP11
+L Jumper:SolderJumper_2_Open JP13
 U 1 1 600C876D
 P 13600 7400
-F 0 "JP11" H 13600 7300 50  0000 C CNN
+F 0 "JP13" H 13600 7300 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 13600 7514 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13600 7400 50  0001 C CNN
 F 3 "~" H 13600 7400 50  0001 C CNN
@@ -3640,10 +3636,10 @@ $EndComp
 Text GLabel 13450 7400 0    50   UnSpc ~ 0
 3V
 $Comp
-L Jumper:SolderJumper_2_Open JP13
+L Jumper:SolderJumper_2_Open JP15
 U 1 1 600CA850
 P 14700 1350
-F 0 "JP13" H 14700 1450 50  0000 C CNN
+F 0 "JP15" H 14700 1450 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 14700 1464 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 14700 1350 50  0001 C CNN
 F 3 "~" H 14700 1350 50  0001 C CNN
@@ -3653,10 +3649,10 @@ $EndComp
 Text GLabel 14550 1350 0    50   UnSpc ~ 0
 PEDAL_CLUCH
 $Comp
-L Jumper:SolderJumper_2_Open JP12
+L Jumper:SolderJumper_2_Open JP14
 U 1 1 6019891C
 P 14500 2650
-F 0 "JP12" H 14500 2550 50  0000 C CNN
+F 0 "JP14" H 14500 2550 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 14500 2764 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 14500 2650 50  0001 C CNN
 F 3 "~" H 14500 2650 50  0001 C CNN
@@ -3707,10 +3703,10 @@ Wire Wire Line
 Text GLabel 9050 8200 2    50   UnSpc ~ 0
 GND
 $Comp
-L Device:C C19
+L Device:C C20
 U 1 1 60173F4B
 P 8900 8050
-F 0 "C19" H 9015 8096 50  0000 L CNN
+F 0 "C20" H 9015 8096 50  0000 L CNN
 F 1 "104" H 9015 8005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8938 7900 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/grm21br71h104k" H 8900 8050 50  0001 C CNN
@@ -3783,10 +3779,10 @@ Wire Wire Line
 Text GLabel 9050 9250 2    50   UnSpc ~ 0
 GND
 $Comp
-L Device:C C20
+L Device:C C21
 U 1 1 60404E00
 P 8900 9100
-F 0 "C20" H 9015 9146 50  0000 L CNN
+F 0 "C21" H 9015 9146 50  0000 L CNN
 F 1 "104" H 9015 9055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8938 8950 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/grm21br71h104k" H 8900 9100 50  0001 C CNN
@@ -3836,10 +3832,10 @@ Wire Wire Line
 Text GLabel 10450 9250 2    50   UnSpc ~ 0
 GND
 $Comp
-L Device:C C24
+L Device:C C25
 U 1 1 605CF692
 P 10300 9100
-F 0 "C24" H 10415 9146 50  0000 L CNN
+F 0 "C25" H 10415 9146 50  0000 L CNN
 F 1 "104" H 10415 9055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 10338 8950 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/grm21br71h104k" H 10300 9100 50  0001 C CNN
@@ -3890,10 +3886,10 @@ Wire Wire Line
 Text GLabel 9050 10300 2    50   UnSpc ~ 0
 GND
 $Comp
-L Device:C C21
+L Device:C C22
 U 1 1 60E27D9B
 P 8900 10150
-F 0 "C21" H 9015 10196 50  0000 L CNN
+F 0 "C22" H 9015 10196 50  0000 L CNN
 F 1 "104" H 9015 10105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8938 10000 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/grm21br71h104k" H 8900 10150 50  0001 C CNN
@@ -3999,10 +3995,10 @@ Wire Wire Line
 Text GLabel 11850 8200 2    50   UnSpc ~ 0
 GND
 $Comp
-L Device:C C29
+L Device:C C30
 U 1 1 611F8F64
 P 11700 8050
-F 0 "C29" H 11815 8096 50  0000 L CNN
+F 0 "C30" H 11815 8096 50  0000 L CNN
 F 1 "104" H 11815 8005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 11738 7900 50  0001 C CNN
 F 3 "https://www.chipdip.ru/product/grm21br71h104k" H 11700 8050 50  0001 C CNN
@@ -4022,24 +4018,87 @@ Wire Notes Line
 	12150 9950 12150 6650
 Wire Notes Line
 	7350 6650 12150 6650
+Text GLabel 11600 9350 2    50   UnSpc ~ 0
+B21
+Wire Wire Line
+	11200 8950 11850 8950
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP1
+U 1 1 60190F9A
+P 2150 10900
+F 0 "JP1" V 2196 10968 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 2105 10968 50  0001 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 2150 10900 50  0001 C CNN
+F 3 "~" H 2150 10900 50  0001 C CNN
+	1    2150 10900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2000 11100 0    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	2000 11100 2150 11100
+Text GLabel 2000 10700 0    50   UnSpc ~ 0
+5V
+Wire Wire Line
+	2000 10700 2150 10700
+Wire Wire Line
+	2300 10900 2600 10900
+Wire Wire Line
+	2600 10900 2600 10750
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP3
+U 1 1 60199E4A
+P 5650 10950
+F 0 "JP3" V 5696 11018 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 5605 11018 50  0001 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 5650 10950 50  0001 C CNN
+F 3 "~" H 5650 10950 50  0001 C CNN
+	1    5650 10950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5500 11150 0    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	5500 11150 5650 11150
+Text GLabel 5500 10750 0    50   UnSpc ~ 0
+5V
+Wire Wire Line
+	5500 10750 5650 10750
+Wire Wire Line
+	5800 10950 6050 10950
+Wire Wire Line
+	6050 10950 6050 10750
+$Comp
+L Device:C C17
+U 1 1 601A6E74
+P 8350 1600
+F 0 "C17" H 8465 1646 50  0000 L CNN
+F 1 "104" H 8465 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8388 1450 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/grm21br71h104k" H 8350 1600 50  0001 C CNN
+	1    8350 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 1450 8350 1450
+Wire Wire Line
+	8000 1750 8350 1750
+Connection ~ 8000 1450
+Connection ~ 8000 1750
 Wire Bus Line
 	4450 9500 4450 10400
 Wire Bus Line
 	5450 9500 5450 10500
 Wire Bus Line
-	6100 7500 6100 10500
-Wire Bus Line
-	5900 7500 5900 9100
-Wire Bus Line
 	1000 9500 1000 10400
 Wire Bus Line
 	2000 9500 2000 10500
 Wire Bus Line
-	2650 7500 2650 10500
-Wire Bus Line
 	2450 7500 2450 9100
-Text GLabel 11600 9350 2    50   UnSpc ~ 0
-B21
-Wire Wire Line
-	11200 8950 11850 8950
+Wire Bus Line
+	5900 7500 5900 9100
+Wire Bus Line
+	6100 7500 6100 10500
+Wire Bus Line
+	2650 7500 2650 10500
 $EndSCHEMATC

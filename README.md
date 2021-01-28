@@ -58,6 +58,12 @@ We have a problem with USB interface. We start to do second PCB:
 
 <img src="images/P10116-213205.jpg" width="480">
 
+## TDD MMOS Schematics
+
+We developed our TDD MMOS board with optocoupler:
+
+<img src="images/TDD_MMOS_WHEEL_PCB_Controller_schematic.PNG" width="480">
+
 ## TDD MMOS PCB
 
 We redesigned PCB for TDD MMOS. We've added optocouplers and second port extender.
